@@ -1,0 +1,20 @@
+timeList = {{"Culter", "Milton_of_Murtle", "Mannofield_Church", 
+    "Holburn_Junction", "Broad_Street", "Sir_Duncan_Rice_Library", 
+    "St_George's_Church", "Tillydrone"}, {655, 707, 722, 731, 738, 
+    750, 753, 756}, {710, 722, 737, 746, 755, 808, 811, 814}, {725, 
+    738, 753, 802, 811, 824, 827, 830}, {740, 754, 809, 818, 827, 840,
+     843, 846}, {755, 809, 824, 833, 842, 855, 858, 901}, {810, 824, 
+    839, 848, 857, 911, 914, 917}, {825, 839, 854, 903, 912, 926, 929,
+     932}, {842, 856, 911, 920, 928, 942, 945, 948}, {858, 912, 927, 
+    936, 944, 958, 1001, 1004}, {914, 927, 942, 951, 959, 1013, 1016, 
+    1019}};
+timeData = 
+ Transpose[
+  Rest[data] /. 
+   minutes_Integer :> 
+    TimeObject[{Quotient[minutes, 100], Mod[minutes, 100], 0}]]
+TableForm[Transpose[timeData], 
+ TableHeadings -> {Range[Length[timeData[[1]]]], { "Culter", 
+    "Milton_of_Murtle", "Mannofield_Church", "Holburn_Junction", 
+    "Broad_Street", "Sir_Duncan_Rice_Library", "St_George's_Church", 
+    "Tillydrone"}}]
