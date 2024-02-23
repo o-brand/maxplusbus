@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    107284,       3270]
-NotebookOptionsPosition[    103440,       3196]
-NotebookOutlinePosition[    103878,       3213]
-CellTagsIndexPosition[    103835,       3210]
+NotebookDataLength[    111470,       3378]
+NotebookOptionsPosition[    107526,       3303]
+NotebookOutlinePosition[    107964,       3320]
+CellTagsIndexPosition[    107921,       3317]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3192,7 +3192,114 @@ Cell[BoxData[
   "Quantity"]], "Output",
  CellChangeTimes->{3.917675531135667*^9},
  CellLabel->"Out[97]=",ExpressionUUID->"c474e4fb-200c-421f-853f-2f59caa4106c"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DataToAssociation", "[", "filename_", "]"}], " ", ":=", " ", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"data", " ", "=", " ", 
+      RowBox[{"Import", "[", 
+       RowBox[{
+        RowBox[{"FileNameJoin", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", 
+           "\"\<bus.txt\>\""}], "}"}], "]"}], ",", "\"\<Table\>\""}], "]"}]}],
+      ";", "\[IndentingNewLine]", 
+     RowBox[{"transpose", " ", "=", " ", 
+      RowBox[{"Transpose", "[", "data", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"timeData", "=", 
+      RowBox[{"Transpose", "[", 
+       RowBox[{
+        RowBox[{"Rest", "[", "transpose", "]"}], "/.", " ", 
+        RowBox[{"minutes_Integer", ":>", 
+         RowBox[{"TimeObject", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Quotient", "[", 
+             RowBox[{"minutes", ",", "100"}], "]"}], ",", 
+            RowBox[{"Mod", "[", 
+             RowBox[{"minutes", ",", "100"}], "]"}], ",", "0"}], "}"}], 
+          "]"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"timeDiffTable", " ", "=", " ", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"timeData", "[", 
+             RowBox[{"[", 
+              RowBox[{"All", ",", "j"}], "]"}], "]"}], "[", 
+            RowBox[{"[", "i", "]"}], "]"}], "-", 
+           RowBox[{
+            RowBox[{"timeData", "[", 
+             RowBox[{"[", 
+              RowBox[{"All", ",", "j"}], "]"}], "]"}], "[", 
+            RowBox[{"[", 
+             RowBox[{"i", "-", "1"}], "]"}], "]"}]}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", " ", "2", ",", " ", 
+            RowBox[{"Length", "[", "timeData", "]"}]}], "}"}]}], "]"}], ",", 
+        " ", 
+        RowBox[{"{", 
+         RowBox[{"j", ",", " ", "1", ",", " ", 
+          RowBox[{"Length", "[", 
+           RowBox[{"Transpose", "[", "timeData", "]"}], "]"}]}], "}"}]}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"maxModeTimes", " ", "=", " ", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Max", "[", 
+         RowBox[{"Commonest", "[", 
+          RowBox[{"timeDiffTable", "[", 
+           RowBox[{"[", 
+            RowBox[{"All", ",", " ", "i"}], "]"}], "]"}], "]"}], "]"}], ",", 
+        " ", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", " ", "1", ",", " ", 
+          RowBox[{"Length", "[", 
+           RowBox[{"timeDiffTable", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "]"}]}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"stopPairs", " ", "=", " ", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"List", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"First", "[", "transpose", "]"}], "[", 
+           RowBox[{"[", 
+            RowBox[{"i", "-", "1"}], "]"}], "]"}], ",", 
+          RowBox[{
+           RowBox[{"First", "[", "transpose", "]"}], "[", 
+           RowBox[{"[", "i", "]"}], "]"}]}], "]"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", " ", "2", ",", " ", 
+          RowBox[{"Length", "[", "maxModeTimes", "]"}]}], "}"}]}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"association", " ", "=", " ", 
+      RowBox[{"Association", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"stopPairs", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "->", 
+          RowBox[{"maxModeTimes", "[", 
+           RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", " ", "1", ",", " ", 
+           RowBox[{"Length", "[", "stopPairs", "]"}]}], "}"}]}], "]"}], 
+       "]"}]}], ";", "\[IndentingNewLine]", "association"}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.917675742331416*^9, 
+  3.917675980875894*^9}},ExpressionUUID->"9d9c045a-1ec4-45d1-aa84-\
+6de19395082a"]
 },
 WindowSize->{1280, 685},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -3271,7 +3378,8 @@ Cell[101055, 3128, 1754, 46, 87, "Output",ExpressionUUID->"7e05284f-3dff-4d6d-82
 Cell[CellGroupData[{
 Cell[102846, 3179, 355, 8, 30, "Input",ExpressionUUID->"612a97a2-b1c5-441c-af8c-7d59d1a466a4"],
 Cell[103204, 3189, 220, 4, 36, "Output",ExpressionUUID->"c474e4fb-200c-421f-853f-2f59caa4106c"]
-}, Open  ]]
+}, Open  ]],
+Cell[103439, 3196, 4083, 105, 241, "Input",ExpressionUUID->"9d9c045a-1ec4-45d1-aa84-6de19395082a"]
 }
 ]
 *)

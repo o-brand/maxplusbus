@@ -1,0 +1,147 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4918,        139]
+NotebookOptionsPosition[      4568,        125]
+NotebookOutlinePosition[      4964,        141]
+CellTagsIndexPosition[      4921,        138]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DataToAssociation", "[", "filename_", "]"}], " ", ":=", " ", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"data", " ", "=", " ", 
+      RowBox[{"Import", "[", 
+       RowBox[{
+        RowBox[{"FileNameJoin", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "filename"}], 
+          "}"}], "]"}], ",", "\"\<Table\>\""}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"transpose", " ", "=", " ", 
+      RowBox[{"Transpose", "[", "data", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"timeData", "=", 
+      RowBox[{"Transpose", "[", 
+       RowBox[{
+        RowBox[{"Rest", "[", "transpose", "]"}], "/.", " ", 
+        RowBox[{"minutes_Integer", ":>", 
+         RowBox[{"TimeObject", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Quotient", "[", 
+             RowBox[{"minutes", ",", "100"}], "]"}], ",", 
+            RowBox[{"Mod", "[", 
+             RowBox[{"minutes", ",", "100"}], "]"}], ",", "0"}], "}"}], 
+          "]"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"timeDiffTable", " ", "=", " ", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"timeData", "[", 
+             RowBox[{"[", 
+              RowBox[{"All", ",", "j"}], "]"}], "]"}], "[", 
+            RowBox[{"[", "i", "]"}], "]"}], "-", 
+           RowBox[{
+            RowBox[{"timeData", "[", 
+             RowBox[{"[", 
+              RowBox[{"All", ",", "j"}], "]"}], "]"}], "[", 
+            RowBox[{"[", 
+             RowBox[{"i", "-", "1"}], "]"}], "]"}]}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", " ", "2", ",", " ", 
+            RowBox[{"Length", "[", "timeData", "]"}]}], "}"}]}], "]"}], ",", 
+        " ", 
+        RowBox[{"{", 
+         RowBox[{"j", ",", " ", "1", ",", " ", 
+          RowBox[{"Length", "[", 
+           RowBox[{"Transpose", "[", "timeData", "]"}], "]"}]}], "}"}]}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"maxModeTimes", " ", "=", " ", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Max", "[", 
+         RowBox[{"Commonest", "[", 
+          RowBox[{"timeDiffTable", "[", 
+           RowBox[{"[", 
+            RowBox[{"All", ",", " ", "i"}], "]"}], "]"}], "]"}], "]"}], ",", 
+        " ", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", " ", "1", ",", " ", 
+          RowBox[{"Length", "[", 
+           RowBox[{"timeDiffTable", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "]"}]}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"stopPairs", " ", "=", " ", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"List", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"First", "[", "transpose", "]"}], "[", 
+           RowBox[{"[", 
+            RowBox[{"i", "-", "1"}], "]"}], "]"}], ",", 
+          RowBox[{
+           RowBox[{"First", "[", "transpose", "]"}], "[", 
+           RowBox[{"[", "i", "]"}], "]"}]}], "]"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", " ", "2", ",", " ", 
+          RowBox[{"Length", "[", "maxModeTimes", "]"}]}], "}"}]}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"association", " ", "=", " ", 
+      RowBox[{"Association", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"stopPairs", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "->", 
+          RowBox[{"maxModeTimes", "[", 
+           RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", " ", "1", ",", " ", 
+           RowBox[{"Length", "[", "stopPairs", "]"}]}], "}"}]}], "]"}], 
+       "]"}]}], ";", "\[IndentingNewLine]", "association"}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",ExpressionUUID->"b03a98df-9478-\
+49bd-83fa-cf115d72f7bb"]
+},
+WindowSize->{1280, 685},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.0 for Mac OS X x86 (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"160fd747-01ad-48ad-85a7-a7be17b9f4ac"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 4006, 103, 241, "Input",ExpressionUUID->"b03a98df-9478-49bd-83fa-cf115d72f7bb"]
+}
+]
+*)
+
