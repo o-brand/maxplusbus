@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      4918,        139]
-NotebookOptionsPosition[      4568,        125]
-NotebookOutlinePosition[      4964,        141]
-CellTagsIndexPosition[      4921,        138]
+NotebookDataLength[      7032,        195]
+NotebookOptionsPosition[      6031,        174]
+NotebookOutlinePosition[      6427,        190]
+CellTagsIndexPosition[      6384,        187]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -121,7 +121,56 @@ Cell[BoxData[
            RowBox[{"Length", "[", "stopPairs", "]"}]}], "}"}]}], "]"}], 
        "]"}]}], ";", "\[IndentingNewLine]", "association"}]}], 
    "\[IndentingNewLine]", "]"}]}]], "Input",ExpressionUUID->"b03a98df-9478-\
-49bd-83fa-cf115d72f7bb"]
+49bd-83fa-cf115d72f7bb"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"x_", "\[CirclePlus]", "y_"}], ":=", 
+  RowBox[{"Max", "[", 
+   RowBox[{"x", ",", "y"}], "]"}]}]], "Input",ExpressionUUID->"20fcd9c4-e4fd-\
+40ec-b8fd-c0f0e47f7178"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"x_", " ", "\[CircleTimes]", "y_"}], ":=", 
+  RowBox[{"x", "+", "y"}]}]], "Input",ExpressionUUID->"2d988586-049a-40ca-\
+89e3-948aa1146a6a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"mplus", "[", 
+   RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
+  RowBox[{"MapThread", "[", 
+   RowBox[{"Max", ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "y"}], "}"}]}], "]"}]}]], "Input",ExpressionUUID->\
+"3b65de9a-cb7d-4abc-89a6-be7eadf24533"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"mtimes", "[", 
+   RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
+  RowBox[{"Inner", "[", 
+   RowBox[{"Plus", ",", "x", ",", "y", ",", "Max"}], "]"}]}]], "Input",Express\
+ionUUID->"88b1ab7b-84f1-4c86-af15-e5b92d5609d4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scalarplus", "[", 
+   RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
+  RowBox[{"Outer", "[", 
+   RowBox[{"Max", ",", 
+    RowBox[{"{", "x", "}"}], ",", "y"}], "]"}]}]], "Input",ExpressionUUID->\
+"2bb6ee93-9703-4a21-94d0-ddb3bae9b303"],
+
+Cell[BoxData[
+ RowBox[{"eps", "=", 
+  RowBox[{"-", "Infinity"}]}]], "Input",ExpressionUUID->"f42c6798-abc0-42bb-914d-cbe75bf0a3e6"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.917678344405267*^9, 
+  3.917678381304701*^9}},ExpressionUUID->"bbe5ada7-4fcf-42a5-8700-\
+ec4f21f056e6"]
 },
 WindowSize->{1280, 685},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -140,7 +189,14 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 4006, 103, 241, "Input",ExpressionUUID->"b03a98df-9478-49bd-83fa-cf115d72f7bb"]
+Cell[558, 20, 4006, 103, 241, "Input",ExpressionUUID->"b03a98df-9478-49bd-83fa-cf115d72f7bb"],
+Cell[4567, 125, 198, 5, 30, "Input",ExpressionUUID->"20fcd9c4-e4fd-40ec-b8fd-c0f0e47f7178"],
+Cell[4768, 132, 173, 4, 30, "Input",ExpressionUUID->"2d988586-049a-40ca-89e3-948aa1146a6a"],
+Cell[4944, 138, 278, 8, 30, "Input",ExpressionUUID->"3b65de9a-cb7d-4abc-89a6-be7eadf24533"],
+Cell[5225, 148, 247, 6, 30, "Input",ExpressionUUID->"88b1ab7b-84f1-4c86-af15-e5b92d5609d4"],
+Cell[5475, 156, 263, 7, 30, "Input",ExpressionUUID->"2bb6ee93-9703-4a21-94d0-ddb3bae9b303"],
+Cell[5741, 165, 131, 2, 30, "Input",ExpressionUUID->"f42c6798-abc0-42bb-914d-cbe75bf0a3e6"],
+Cell[5875, 169, 152, 3, 30, "Input",ExpressionUUID->"bbe5ada7-4fcf-42a5-8700-ec4f21f056e6"]
 }
 ]
 *)
