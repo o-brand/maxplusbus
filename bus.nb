@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     55454,       1753]
-NotebookOptionsPosition[     54249,       1723]
-NotebookOutlinePosition[     54699,       1740]
-CellTagsIndexPosition[     54656,       1737]
+NotebookDataLength[    107284,       3270]
+NotebookOptionsPosition[    103440,       3196]
+NotebookOutlinePosition[    103878,       3213]
+CellTagsIndexPosition[    103835,       3210]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -34,7 +34,7 @@ Cell[BoxData[
   3.917072541163081*^9}, {3.917072588626808*^9, 3.917072612913063*^9}, {
   3.9172369971118183`*^9, 3.917237028076224*^9}, {3.917237237391758*^9, 
   3.917237254726383*^9}, {3.9172376123112698`*^9, 3.9172376126762276`*^9}},
- CellLabel->"In[35]:=",ExpressionUUID->"6ad1c0bf-58a9-4b10-af7d-818f1ac6f0aa"],
+ CellLabel->"In[18]:=",ExpressionUUID->"6ad1c0bf-58a9-4b10-af7d-818f1ac6f0aa"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -71,8 +71,10 @@ Cell[BoxData[
     RowBox[{"\<\"Tillydrone\"\>", ",", "756", ",", "814", ",", "830", ",", 
      "846", ",", "901", ",", "917", ",", "932", ",", "948", ",", "1004", ",", 
      "1019"}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.9172376452464695`*^9},
- CellLabel->"Out[35]=",ExpressionUUID->"039b1127-f84b-1f43-8946-8e2fa6bb5b6a"]
+ CellChangeTimes->{
+  3.9172376452464695`*^9, {3.917671713445668*^9, 3.9176717277544394`*^9}, 
+   3.917672351924006*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"502fc11f-60c7-4e03-8990-1ecccb27b2dc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -83,7 +85,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.917072630320156*^9, 3.917072636316148*^9}, {
   3.917072683114314*^9, 3.917072686469122*^9}, {3.917237610196565*^9, 
   3.917237610656372*^9}},
- CellLabel->"In[36]:=",ExpressionUUID->"7cefb76c-5907-4e3a-aad6-a5e40c081a81"],
+ CellLabel->"In[19]:=",ExpressionUUID->"7cefb76c-5907-4e3a-aad6-a5e40c081a81"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -134,8 +136,9 @@ Cell[BoxData[
     RowBox[{
     "914", ",", "927", ",", "942", ",", "951", ",", "959", ",", "1013", ",", 
      "1016", ",", "1019"}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.9172376536544247`*^9},
- CellLabel->"Out[36]=",ExpressionUUID->"6f08e8a3-9a3d-c04d-9f2f-d6e61a045395"]
+ CellChangeTimes->{3.9172376536544247`*^9, 3.9176717278236027`*^9, 
+  3.917672351990024*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"2d024840-584f-495f-b384-602e641bc9cd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -158,8 +161,10 @@ Cell[BoxData[
    3.917081195206003*^9, 3.917081197013485*^9}, 3.917236924866513*^9, {
    3.917237146556652*^9, 3.917237147576351*^9}, {3.917237179506567*^9, 
    3.917237181371485*^9}, {3.917237287446718*^9, 3.917237299351338*^9}, {
-   3.917237544786366*^9, 3.917237552506706*^9}, 3.917237604171623*^9},
- CellLabel->"In[37]:=",ExpressionUUID->"ac8d308e-c931-482f-a476-170d29feea6f"],
+   3.917237544786366*^9, 3.917237552506706*^9}, 3.917237604171623*^9, {
+   3.9176723379167957`*^9, 3.917672339856735*^9}, {3.917672594196549*^9, 
+   3.917672598815682*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"ac8d308e-c931-482f-a476-170d29feea6f"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -900,8 +905,9 @@ Cell[BoxData[
           "]"}]},
       "TimeObject",
       Editable->False]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.91723765631102*^9},
- CellLabel->"Out[37]=",ExpressionUUID->"1a98b6b6-d8b7-404a-aba7-308afe09f2e9"]
+ CellChangeTimes->{3.91723765631102*^9, 3.917671727868404*^9, 
+  3.9176723520545683`*^9, 3.917672609328776*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"34ff7f37-174c-4c87-b214-88c75d079666"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -919,9 +925,11 @@ Cell[BoxData[
          RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}], ",", " ", 
       RowBox[{"First", "[", "transpose", "]"}]}], "}"}]}]}], "]"}]], "Input",
  CellChangeTimes->{{3.917237343496523*^9, 3.917237388547461*^9}, {
-  3.917237447206272*^9, 3.917237451836666*^9}, {3.9172375574563284`*^9, 
-  3.917237560971489*^9}, {3.9172376062314854`*^9, 3.917237608536415*^9}},
- CellLabel->"In[38]:=",ExpressionUUID->"690a8fa4-f97c-8d48-a5e5-49475a96730c"],
+  3.917237447206272*^9, 3.917237451836666*^9}, {3.9172375574563293`*^9, 
+  3.917237560971489*^9}, {3.9172376062314854`*^9, 3.917237608536415*^9}, {
+  3.917671623914135*^9, 3.917671655932591*^9}, {3.917672342996664*^9, 
+  3.917672344405714*^9}, {3.917672585797078*^9, 3.917672589607932*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"690a8fa4-f97c-8d48-a5e5-49475a96730c"],
 
 Cell[BoxData[
  TagBox[
@@ -1715,16 +1723,1481 @@ Cell[BoxData[
       "Culter", "Milton_of_Murtle", "Mannofield_Church", "Holburn_Junction", 
        "Broad_Street", "Sir_Duncan_Rice_Library", "St_George's_Church", 
        "Tillydrone"}}]]]], "Output",
- CellChangeTimes->{3.9172376597561626`*^9},
+ CellChangeTimes->{3.917672549384012*^9, 3.917672613628468*^9},
  CellLabel->
-  "Out[38]//TableForm=",ExpressionUUID->"d776d3cc-a3ec-374c-8b4b-\
-c28a1409b273"]
+  "Out[31]//TableForm=",ExpressionUUID->"39cbe59e-89b0-4959-b24c-\
+0a00be0d9390"]
+}, Open  ]],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      StyleBox["\[Null]",
+       ShowStringCharacters->False], 
+      TagBox["\"\<Culter\>\"",
+       HoldForm], 
+      TagBox["\"\<Milton_of_Murtle\>\"",
+       HoldForm], 
+      TagBox["\"\<Mannofield_Church\>\"",
+       HoldForm], 
+      TagBox["\"\<Holburn_Junction\>\"",
+       HoldForm], 
+      TagBox["\"\<Broad_Street\>\"",
+       HoldForm], 
+      TagBox["\"\<Sir_Duncan_Rice_Library\>\"",
+       HoldForm], 
+      TagBox["\"\<St_George's_Church\>\"",
+       HoldForm], 
+      TagBox["\"\<Tillydrone\>\"",
+       HoldForm]},
+     {
+      TagBox["1",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"06:55:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"6", ",", "55", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:07:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "7", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:22:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "22", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:31:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "31", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:38:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "38", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:50:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "50", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:53:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "53", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:56:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "56", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["2",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"07:10:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "10", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:22:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "22", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:37:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "37", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:46:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "46", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:55:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "55", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:08:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "8", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:11:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "11", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:14:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "14", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["3",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"07:25:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "25", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:38:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "38", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:53:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "53", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:02:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "2", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:11:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "11", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:24:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "24", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:27:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "27", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:30:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "30", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["4",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"07:40:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "40", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"07:54:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "54", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:09:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "9", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:18:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "18", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:27:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "27", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:40:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "40", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:43:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "43", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:46:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "46", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["5",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"07:55:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"7", ",", "55", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:09:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "9", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:24:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "24", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:33:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "33", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:42:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "42", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:55:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "55", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:58:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "58", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:01:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "1", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["6",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"08:10:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "10", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:24:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "24", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:39:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "39", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:48:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "48", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:57:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "57", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:11:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "11", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:14:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "14", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:17:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "17", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["7",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"08:25:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "25", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:39:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "39", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:54:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "54", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:03:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "3", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+          "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:12:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "12", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:26:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "26", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:29:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "29", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:32:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "32", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      TagBox["8",
+       HoldForm], 
+      TemplateBox[{
+        RowBox[{"\"08:42:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "42", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"08:56:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "56", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:11:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "11", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:20:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "20", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:28:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "28", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:42:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "42", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:45:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "45", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:48:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "48", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      RowBox[{
+       TagBox[
+        StyleBox["\<\"\[Null]\"\>",
+         ShowStringCharacters->False],
+        StyleForm[#, ShowStringCharacters -> False]& ], "9"}], 
+      TemplateBox[{
+        RowBox[{"\"08:58:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"8", ",", "58", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:12:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "12", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:27:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "27", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:36:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "36", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:44:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "44", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:58:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "58", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"10:01:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"10", ",", "1", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"10:04:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"10", ",", "4", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False]},
+     {
+      RowBox[{
+       TagBox[
+        StyleBox["\<\"\[Null]\"\>",
+         ShowStringCharacters->False],
+        StyleForm[#, ShowStringCharacters -> False]& ], "10"}], 
+      TemplateBox[{
+        RowBox[{"\"09:14:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "14", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:27:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "27", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:42:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "42", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:51:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "51", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"09:59:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"9", ",", "59", ",", "0"}], "}"}], ",", "\"Instant\""}],
+           "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"10:13:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"10", ",", "13", ",", "0"}], "}"}], ",", 
+            "\"Instant\""}], "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"10:16:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"10", ",", "16", ",", "0"}], "}"}], ",", 
+            "\"Instant\""}], "]"}]},
+       "TimeObject",
+       Editable->False], 
+      TemplateBox[{
+        RowBox[{"\"10:19:00\""}], 
+        RowBox[{"TimeObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              RowBox[{"10", ",", "19", ",", "0"}], "}"}], ",", 
+            "\"Instant\""}], "]"}]},
+       "TimeObject",
+       Editable->False]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{
+     "Columns" -> {False, True, {False}, False}, 
+      "Rows" -> {False, True, {False}, False}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[2.0999999999999996`]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}],
+   {OutputFormsDump`HeadedRows, OutputFormsDump`HeadedColumns}],
+  Function[BoxForm`e$, 
+   TableForm[
+   BoxForm`e$, 
+    TableHeadings -> {{1, 2, 3, 4, 5, 6, 7, 8}, {
+      "Culter", "Milton_of_Murtle", "Mannofield_Church", "Holburn_Junction", 
+       "Broad_Street", "Sir_Duncan_Rice_Library", "St_George's_Church", 
+       "Tillydrone"}}]]]], "Input",
+ CellChangeTimes->{{3.917672540988941*^9, 
+  3.917672542853374*^9}},ExpressionUUID->"789cca22-a882-4211-a3a1-\
+91a81945d5a2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"timeData", "[", 
+  RowBox[{"[", 
+   RowBox[{"All", ",", "1"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.917671734650998*^9, 3.917671780979794*^9}, {
+  3.9176722114973383`*^9, 3.917672227644443*^9}, {3.91767263501766*^9, 
+  3.917672657756267*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"31af1a3a-df90-4487-a242-81d49c87ce37"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     RowBox[{"\"06:55:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"6", ",", "55", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:07:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "7", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:22:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "22", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:31:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "31", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:38:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "38", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:50:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "50", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:53:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "53", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"07:56:00\""}], 
+     RowBox[{"TimeObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"7", ",", "56", ",", "0"}], "}"}], ",", "\"Instant\""}], 
+       "]"}]},
+    "TimeObject",
+    Editable->False]}], "}"}]], "Output",
+ CellChangeTimes->{3.917672628310808*^9, 3.917672660030347*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"4336e50d-375d-4c8e-878b-e4536082b379"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9176725670958557`*^9, 
+  3.917672567098016*^9}},ExpressionUUID->"38409809-cfcc-40c2-937b-\
+6796cf6159e9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"timeDiff", " ", "=", " ", 
+  RowBox[{"{", "}"}], " "}]], "Input",
+ CellChangeTimes->{{3.917672854380851*^9, 3.91767286624282*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"9b60a291-206e-4aca-843d-69d3bf49917b"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.9176729289215927`*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"ef713efd-b20a-468e-9e26-e4fcded20548"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"i", "=", "1"}], ",", " ", 
+   RowBox[{"i", "<", 
+    RowBox[{"Length", "[", 
+     RowBox[{"timeData", "[", 
+      RowBox[{"[", 
+       RowBox[{"All", ",", "1"}], "]"}], "]"}], "]"}]}], ",", " ", 
+   RowBox[{
+    RowBox[{"i", "++"}], ";", " ", 
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timeDiff", ",", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"timeData", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], "[", 
+         RowBox[{"[", "i", "]"}], "]"}], "-", 
+        RowBox[{
+         RowBox[{"timeData", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"i", "-", "1"}], "]"}], "]"}]}], ")"}]}], "]"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.917671944778632*^9, 3.9176720495548143`*^9}, {
+   3.917672089553244*^9, 3.917672097314248*^9}, {3.917672159534602*^9, 
+   3.91767218601341*^9}, {3.9176722307826433`*^9, 3.917672265159936*^9}, {
+   3.917672361937805*^9, 3.917672370979474*^9}, {3.9176724099624643`*^9, 
+   3.91767242917572*^9}, {3.917672464784603*^9, 3.917672467920824*^9}, 
+   3.917672674831093*^9, {3.917672717345492*^9, 3.917672786436925*^9}, {
+   3.917672892691058*^9, 3.917672916343482*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"01176503-d502-4e9b-b2d4-468752b990ec"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["timeDiff"], "Input",
+ CellChangeTimes->{{3.917672935745963*^9, 3.917672937225268*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"276809f4-1a5c-42a9-ab50-21950622426e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.917672937691289*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"1808017e-ff21-4d2d-83e5-931a357dccc0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"timeData", "[", 
+       RowBox[{"[", 
+        RowBox[{"All", ",", "1"}], "]"}], "]"}], "[", 
+      RowBox[{"[", "i", "]"}], "]"}], "-", 
+     RowBox[{
+      RowBox[{"timeData", "[", 
+       RowBox[{"[", 
+        RowBox[{"All", ",", "1"}], "]"}], "]"}], "[", 
+      RowBox[{"[", 
+       RowBox[{"i", "-", "1"}], "]"}], "]"}]}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", " ", "2", ",", " ", 
+      RowBox[{"Length", "[", "timeData", "]"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.91767302067452*^9, 3.91767308855056*^9}, {
+  3.917673125810894*^9, 3.917673262060069*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"2624b74d-a7cd-4d41-8f62-1d8433f12608"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{{3.917673245915476*^9, 3.9176732633851967`*^9}},
+ CellLabel->"Out[45]=",ExpressionUUID->"5393e40c-854e-495f-9454-b943afad0a94"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"timeDiffTable", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"timeData", "[", 
+         RowBox[{"[", 
+          RowBox[{"All", ",", "j"}], "]"}], "]"}], "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "-", 
+       RowBox[{
+        RowBox[{"timeData", "[", 
+         RowBox[{"[", 
+          RowBox[{"All", ",", "j"}], "]"}], "]"}], "[", 
+        RowBox[{"[", 
+         RowBox[{"i", "-", "1"}], "]"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", " ", "2", ",", " ", 
+        RowBox[{"Length", "[", "timeData", "]"}]}], "}"}]}], "]"}], ",", " ", 
+    
+    RowBox[{"{", 
+     RowBox[{"j", ",", " ", "1", ",", " ", 
+      RowBox[{"Length", "[", 
+       RowBox[{"Transpose", "[", "timeData", "]"}], "]"}]}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.917673284847909*^9, 3.91767342872719*^9}, {
+  3.917673534227247*^9, 3.917673540856089*^9}, {3.9176737884672747`*^9, 
+  3.917673790330575*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"3ee0462d-d386-4502-a753-b8bbba1d3eff"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"12.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+      
+      "Quantity"], ",", 
+     TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.917673397903989*^9, 3.917673435522759*^9}, 
+   3.9176737264307833`*^9, 3.917673791001153*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"a8272832-f892-4ebb-bb49-152b62cfea8c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"maxModeTimes", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Max", "[", 
+     RowBox[{"Commonest", "[", 
+      RowBox[{"timeDiffTable", "[", 
+       RowBox[{"[", 
+        RowBox[{"All", ",", " ", "i"}], "]"}], "]"}], "]"}], "]"}], ",", " ", 
+    
+    RowBox[{"{", 
+     RowBox[{"i", ",", " ", "1", ",", " ", 
+      RowBox[{"Length", "[", 
+       RowBox[{"timeDiffTable", "[", 
+        RowBox[{"[", "1", "]"}], "]"}], "]"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.9176737009951344`*^9, 3.9176737831515217`*^9}, {
+  3.917673822014578*^9, 3.917673937596319*^9}, {3.917673994744928*^9, 
+  3.9176740787069807`*^9}, {3.9176753370210047`*^9, 3.9176753457427263`*^9}},
+ CellLabel->"In[91]:=",ExpressionUUID->"6204cd61-0358-4d7b-bdd5-c67a5377fe47"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.917675350322606*^9},
+ CellLabel->"Out[91]=",ExpressionUUID->"3a92876a-3b9f-47be-a3e8-dbefc810dd7b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"stops", " ", "=", " ", 
+  RowBox[{"First", "[", "transpose", "]"}]}]], "Input",
+ CellChangeTimes->{{3.917674634858287*^9, 3.917674638185258*^9}, {
+  3.917674703323696*^9, 3.917674704751214*^9}, {3.917675357124264*^9, 
+  3.917675359334671*^9}},ExpressionUUID->"0457996f-2b81-460f-b5b0-\
+28796215501d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"], ",", 
+   TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.9176746451490383`*^9, 3.917674788518182*^9},
+ CellLabel->"Out[70]=",ExpressionUUID->"fa321983-671d-45cf-b17e-08a15110a28f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Culter\"\>", ",", "\<\"Milton_of_Murtle\"\>", 
+   ",", "\<\"Mannofield_Church\"\>", ",", "\<\"Holburn_Junction\"\>", 
+   ",", "\<\"Broad_Street\"\>", ",", "\<\"Sir_Duncan_Rice_Library\"\>", 
+   ",", "\<\"St_George's_Church\"\>", ",", "\<\"Tillydrone\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.9176746451490383`*^9, 3.9176747885258083`*^9},
+ CellLabel->"Out[71]=",ExpressionUUID->"8752ffd6-fa93-4d8b-9f95-c31ed68ab320"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"stopPairs", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"List", "[", 
+     RowBox[{
+      RowBox[{"stops", "[", 
+       RowBox[{"[", 
+        RowBox[{"i", "-", "1"}], "]"}], "]"}], ",", 
+      RowBox[{"stops", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], "]"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", " ", "2", ",", " ", 
+      RowBox[{"Length", "[", "stops", "]"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.917674697762794*^9, 3.917674763251316*^9}, {
+  3.917674803605953*^9, 3.9176748182784224`*^9}, {3.917674914333378*^9, 
+  3.917674916105207*^9}, {3.9176752629255667`*^9, 3.917675266765601*^9}, {
+  3.9176753015090218`*^9, 3.91767530280261*^9}, {3.917675420473489*^9, 
+  3.917675436994505*^9}},
+ EmphasizeSyntaxErrors->
+  True,ExpressionUUID->"d8bbde2b-a9e9-447c-9a29-8b3a08c3fd08"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"Culter\"\>", ",", "\<\"Milton_of_Murtle\"\>"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Milton_of_Murtle\"\>", ",", "\<\"Mannofield_Church\"\>"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Mannofield_Church\"\>", ",", "\<\"Holburn_Junction\"\>"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Holburn_Junction\"\>", ",", "\<\"Broad_Street\"\>"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Broad_Street\"\>", ",", "\<\"Sir_Duncan_Rice_Library\"\>"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Sir_Duncan_Rice_Library\"\>", 
+     ",", "\<\"St_George's_Church\"\>"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"St_George's_Church\"\>", ",", "\<\"Tillydrone\"\>"}], 
+    "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.917675287363288*^9, 3.917675310863078*^9}, 
+   3.917675432222163*^9},
+ CellLabel->"Out[92]=",ExpressionUUID->"906773af-fa3d-406c-ab6b-e8cd0c5e2dd9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"association", " ", "=", " ", 
+  RowBox[{"Association", "[", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"stopPairs", "[", 
+       RowBox[{"[", "i", "]"}], "]"}], "->", 
+      RowBox[{"maxModeTimes", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", "1", ",", " ", 
+       RowBox[{"Length", "[", "stopPairs", "]"}]}], "}"}]}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.9176746554520817`*^9, 3.9176746674268303`*^9}, {
+  3.917674896359823*^9, 3.917674906552463*^9}, {3.917675157717864*^9, 
+  3.9176751701580353`*^9}, {3.9176753166936207`*^9, 3.917675324487195*^9}, {
+  3.917675363499187*^9, 3.917675410528722*^9}, {3.917675463628934*^9, 
+  3.9176754646677313`*^9}},
+ CellLabel->"In[96]:=",ExpressionUUID->"1ae6091c-0fc7-40cc-a465-6a4c21234636"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Culter\"\>", ",", "\<\"Milton_of_Murtle\"\>"}], "}"}], 
+    "\[Rule]", 
+    TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Milton_of_Murtle\"\>", ",", "\<\"Mannofield_Church\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Mannofield_Church\"\>", ",", "\<\"Holburn_Junction\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Holburn_Junction\"\>", ",", "\<\"Broad_Street\"\>"}], "}"}],
+     "\[Rule]", 
+    TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Broad_Street\"\>", ",", "\<\"Sir_Duncan_Rice_Library\"\>"}],
+      "}"}], "\[Rule]", 
+    TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Sir_Duncan_Rice_Library\"\>", 
+      ",", "\<\"St_George's_Church\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"St_George's_Church\"\>", ",", "\<\"Tillydrone\"\>"}], "}"}],
+     "\[Rule]", 
+    TemplateBox[{"3.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.917675470121149*^9},
+ CellLabel->"Out[96]=",ExpressionUUID->"7e05284f-3dff-4d6d-8228-3ed8062ce9b9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"association", "[", 
+  RowBox[{"[", 
+   RowBox[{"Key", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Culter\>\"", ",", "\"\<Milton_of_Murtle\>\""}], "}"}], 
+    "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.917675482385893*^9, 3.917675528634656*^9}},
+ CellLabel->"In[97]:=",ExpressionUUID->"612a97a2-b1c5-441c-af8c-7d59d1a466a4"],
+
+Cell[BoxData[
+ TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.917675531135667*^9},
+ CellLabel->"Out[97]=",ExpressionUUID->"c474e4fb-200c-421f-853f-2f59caa4106c"]
 }, Open  ]]
 },
-WindowSize->{1024.5, 513.75},
-WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+WindowSize->{1280, 685},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
-FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+FrontEndVersion->"14.0 for Mac OS X x86 (64-bit) (December 12, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"4335bfda-eadd-4f89-bd00-911e5231514c"
 ]
@@ -1740,20 +3213,64 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 733, 14, 28, "Input",ExpressionUUID->"6ad1c0bf-58a9-4b10-af7d-818f1ac6f0aa"],
-Cell[1316, 38, 1802, 36, 128, "Output",ExpressionUUID->"039b1127-f84b-1f43-8946-8e2fa6bb5b6a"]
+Cell[580, 22, 733, 14, 30, "Input",ExpressionUUID->"6ad1c0bf-58a9-4b10-af7d-818f1ac6f0aa"],
+Cell[1316, 38, 1879, 38, 98, "Output",ExpressionUUID->"502fc11f-60c7-4e03-8990-1ecccb27b2dc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3155, 79, 349, 6, 28, "Input",ExpressionUUID->"7cefb76c-5907-4e3a-aad6-a5e40c081a81"],
-Cell[3507, 87, 1956, 50, 109, "Output",ExpressionUUID->"6f08e8a3-9a3d-c04d-9f2f-d6e61a045395"]
+Cell[3232, 81, 349, 6, 30, "Input",ExpressionUUID->"7cefb76c-5907-4e3a-aad6-a5e40c081a81"],
+Cell[3584, 89, 2005, 51, 119, "Output",ExpressionUUID->"2d024840-584f-495f-b384-602e641bc9cd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5500, 142, 900, 19, 28, "Input",ExpressionUUID->"ac8d308e-c931-482f-a476-170d29feea6f"],
-Cell[6403, 163, 22641, 740, 254, "Output",ExpressionUUID->"1a98b6b6-d8b7-404a-aba7-308afe09f2e9"]
+Cell[5626, 145, 1002, 21, 30, "Input",ExpressionUUID->"ac8d308e-c931-482f-a476-170d29feea6f"],
+Cell[6631, 168, 22712, 741, 261, "Output",ExpressionUUID->"34ff7f37-174c-4c87-b214-88c75d079666"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29081, 908, 704, 15, 28, "Input",ExpressionUUID->"690a8fa4-f97c-8d48-a5e5-49475a96730c"],
-Cell[29788, 925, 24445, 795, 376, "Output",ExpressionUUID->"d776d3cc-a3ec-374c-8b4b-c28a1409b273"]
+Cell[29380, 914, 848, 17, 30, "Input",ExpressionUUID->"690a8fa4-f97c-8d48-a5e5-49475a96730c"],
+Cell[30231, 933, 24465, 795, 327, "Output",ExpressionUUID->"39cbe59e-89b0-4959-b24c-0a00be0d9390"]
+}, Open  ]],
+Cell[54711, 1731, 24688, 800, 309, "Input",ExpressionUUID->"789cca22-a882-4211-a3a1-91a81945d5a2"],
+Cell[CellGroupData[{
+Cell[79424, 2535, 354, 7, 30, "Input",ExpressionUUID->"31af1a3a-df90-4487-a242-81d49c87ce37"],
+Cell[79781, 2544, 2267, 76, 44, "Output",ExpressionUUID->"4336e50d-375d-4c8e-878b-e4536082b379"]
+}, Open  ]],
+Cell[82063, 2623, 154, 3, 30, "Input",ExpressionUUID->"38409809-cfcc-40c2-937b-6796cf6159e9"],
+Cell[CellGroupData[{
+Cell[82242, 2630, 233, 4, 30, "Input",ExpressionUUID->"9b60a291-206e-4aca-843d-69d3bf49917b"],
+Cell[82478, 2636, 168, 3, 34, "Output",ExpressionUUID->"ef713efd-b20a-468e-9e26-e4fcded20548"]
+}, Open  ]],
+Cell[82661, 2642, 1396, 34, 30, "Input",ExpressionUUID->"01176503-d502-4e9b-b2d4-468752b990ec"],
+Cell[CellGroupData[{
+Cell[84082, 2680, 179, 2, 30, "Input",ExpressionUUID->"276809f4-1a5c-42a9-ab50-21950622426e"],
+Cell[84264, 2684, 780, 18, 38, "Output",ExpressionUUID->"1808017e-ff21-4d2d-83e5-931a357dccc0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[85081, 2707, 795, 21, 52, "Input",ExpressionUUID->"2624b74d-a7cd-4d41-8f62-1d8433f12608"],
+Cell[85879, 2730, 806, 18, 38, "Output",ExpressionUUID->"5393e40c-854e-495f-9454-b943afad0a94"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[86722, 2753, 1116, 30, 30, "Input",ExpressionUUID->"3ee0462d-d386-4502-a753-b8bbba1d3eff"],
+Cell[87841, 2785, 7180, 181, 134, "Output",ExpressionUUID->"a8272832-f892-4ebb-bb49-152b62cfea8c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[95058, 2971, 796, 18, 30, "Input",ExpressionUUID->"6204cd61-0358-4d7b-bdd5-c67a5377fe47"],
+Cell[95857, 2991, 780, 18, 38, "Output",ExpressionUUID->"3a92876a-3b9f-47be-a3e8-dbefc810dd7b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[96674, 3014, 324, 6, 30, "Input",ExpressionUUID->"0457996f-2b81-460f-b5b0-28796215501d"],
+Cell[97001, 3022, 804, 18, 38, "Output",ExpressionUUID->"fa321983-671d-45cf-b17e-08a15110a28f"],
+Cell[97808, 3042, 469, 8, 34, "Output",ExpressionUUID->"8752ffd6-fa93-4d8b-9f95-c31ed68ab320"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[98314, 3055, 857, 20, 30, "Input",ExpressionUUID->"d8bbde2b-a9e9-447c-9a29-8b3a08c3fd08"],
+Cell[99174, 3077, 985, 25, 56, "Output",ExpressionUUID->"906773af-fa3d-406c-ab6b-e8cd0c5e2dd9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[100196, 3107, 856, 19, 30, "Input",ExpressionUUID->"1ae6091c-0fc7-40cc-a465-6a4c21234636"],
+Cell[101055, 3128, 1754, 46, 87, "Output",ExpressionUUID->"7e05284f-3dff-4d6d-8228-3ed8062ce9b9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[102846, 3179, 355, 8, 30, "Input",ExpressionUUID->"612a97a2-b1c5-441c-af8c-7d59d1a466a4"],
+Cell[103204, 3189, 220, 4, 36, "Output",ExpressionUUID->"c474e4fb-200c-421f-853f-2f59caa4106c"]
 }, Open  ]]
 }
 ]
