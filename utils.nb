@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     54152,       1188]
-NotebookOptionsPosition[     52035,       1150]
-NotebookOutlinePosition[     52473,       1167]
-CellTagsIndexPosition[     52430,       1164]
+NotebookDataLength[     55274,       1192]
+NotebookOptionsPosition[     53160,       1154]
+NotebookOutlinePosition[     53598,       1171]
+CellTagsIndexPosition[     53555,       1168]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -410,20 +410,20 @@ Cell[BoxData[{
    3.918831962707137*^9, 3.918832000005254*^9}, {3.9188860314961157`*^9, 
    3.9188860327054768`*^9}, {3.9188917322403297`*^9, 
    3.9188917378849154`*^9}, {3.918892639329525*^9, 3.9188926409237947`*^9}},
- CellLabel->"In[73]:=",ExpressionUUID->"b03a98df-9478-49bd-83fa-cf115d72f7bb"],
+ CellLabel->"In[73]:=",ExpressionUUID->"a609c1de-5601-4704-8293-efe2ccbd3fae"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"x_", "\[CirclePlus]", "y_"}], ":=", 
   RowBox[{"Max", "[", 
    RowBox[{"x", ",", "y"}], "]"}]}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"20fcd9c4-e4fd-40ec-b8fd-c0f0e47f7178"],
+ CellLabel->"In[2]:=",ExpressionUUID->"b30385cc-f050-4a84-9c9b-434e72a04bb8"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"x_", " ", "\[CircleTimes]", "y_"}], ":=", 
   RowBox[{"x", "+", "y"}]}]], "Input",
- CellLabel->"In[3]:=",ExpressionUUID->"2d988586-049a-40ca-89e3-948aa1146a6a"],
+ CellLabel->"In[3]:=",ExpressionUUID->"7d8d46a5-badb-4436-90c1-7c5f59849be5"],
 
 Cell[BoxData[
  RowBox[{
@@ -433,7 +433,7 @@ Cell[BoxData[
    RowBox[{"Max", ",", 
     RowBox[{"{", 
      RowBox[{"x", ",", "y"}], "}"}]}], "]"}]}]], "Input",
- CellLabel->"In[4]:=",ExpressionUUID->"3b65de9a-cb7d-4abc-89a6-be7eadf24533"],
+ CellLabel->"In[4]:=",ExpressionUUID->"8aa7fffa-fd74-4215-b322-ca63094ada1b"],
 
 Cell[BoxData[
  RowBox[{
@@ -441,7 +441,7 @@ Cell[BoxData[
    RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
   RowBox[{"Inner", "[", 
    RowBox[{"Plus", ",", "x", ",", "y", ",", "Max"}], "]"}]}]], "Input",
- CellLabel->"In[5]:=",ExpressionUUID->"88b1ab7b-84f1-4c86-af15-e5b92d5609d4"],
+ CellLabel->"In[5]:=",ExpressionUUID->"31a05417-2b42-4aef-98ba-5170bfafe37b"],
 
 Cell[BoxData[
  RowBox[{
@@ -450,19 +450,19 @@ Cell[BoxData[
   RowBox[{"Outer", "[", 
    RowBox[{"Max", ",", 
     RowBox[{"{", "x", "}"}], ",", "y"}], "]"}]}]], "Input",
- CellLabel->"In[6]:=",ExpressionUUID->"2bb6ee93-9703-4a21-94d0-ddb3bae9b303"],
+ CellLabel->"In[6]:=",ExpressionUUID->"73a58981-ae96-4126-bdc8-9d6e5b8ec020"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"eps", "=", 
   RowBox[{"-", "Infinity"}]}]], "Input",
- CellLabel->"In[7]:=",ExpressionUUID->"f42c6798-abc0-42bb-914d-cbe75bf0a3e6"],
+ CellLabel->"In[7]:=",ExpressionUUID->"84e5face-02f1-4434-8bf7-dd90d1696466"],
 
 Cell[BoxData[
  RowBox[{"-", "\[Infinity]"}]], "Output",
  CellChangeTimes->{3.9182813401287975`*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"5744a94d-a076-8c40-9ee8-73e7bf979ff9"]
+ CellLabel->"Out[7]=",ExpressionUUID->"dcc31fa9-ae56-43e8-8096-a6695a20f38f"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -473,30 +473,128 @@ Cell[BoxData[
    RowBox[{"StringJoin", "[", 
     RowBox[{
     "\"\<p\>\"", ",", "\"\<_\>\"", ",", "rn", ",", "\"\<_\>\"", ",", " ", 
-     "s1", ",", " ", "\"\<_\>\"", ",", " ", "s2"}], "]"}], "]"}]}]], "Input",
+     "s1", ",", " ", "\"\<+\>\"", ",", " ", "s2"}], "]"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.918894061589178*^9, 3.9188940743480263`*^9}, {
   3.918894138217189*^9, 3.918894170051134*^9}, {3.9188943210645943`*^9, 
-  3.918894321524403*^9}},
+  3.918894321524403*^9}, {3.919143842875165*^9, 3.9191438438782597`*^9}},
  CellLabel->
-  "In[141]:=",ExpressionUUID->"49ce9c33-bcba-49ed-9b3f-e6d17db5888a"],
+  "In[236]:=",ExpressionUUID->"d1a2c073-b1ca-40fb-96ab-7c58a109def3"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"MakeNiceTransitionName", "[", 
-   RowBox[{"rn_", ",", "q_"}], "]"}], " ", ":=", " ", 
-  RowBox[{"ToString", "[", 
-   RowBox[{"StringJoin", "[", 
-    RowBox[{"\"\<q_\>\"", ",", "rn", ",", "\"\<_\>\"", ",", " ", "q"}], "]"}],
-    "]"}]}]], "Input",
+  RowBox[{
+   RowBox[{"MakeNiceTransitionName", "[", 
+    RowBox[{"rn_", ",", "q_"}], "]"}], " ", ":=", " ", 
+   RowBox[{"ToString", "[", 
+    RowBox[{"StringJoin", "[", 
+     RowBox[{"\"\<q_\>\"", ",", "rn", ",", "\"\<_\>\"", ",", " ", "q"}], 
+     "]"}], "]"}]}], "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.917709537852675*^9, 3.917709545818152*^9}, {
   3.917709577057252*^9, 3.917709591286549*^9}, {3.917709629472536*^9, 
   3.917709663632736*^9}, {3.918881601329464*^9, 3.918881601834118*^9}, {
   3.918884925631616*^9, 3.9188849439354267`*^9}, {3.918885794809847*^9, 
   3.918885828819264*^9}, {3.918887072654002*^9, 3.918887108977192*^9}, {
   3.918889397500215*^9, 3.918889398126083*^9}, {3.918893112930521*^9, 
-  3.918893122240788*^9}, {3.9188939737848587`*^9, 3.918894005903788*^9}},
+  3.918893122240788*^9}, {3.9188939737848587`*^9, 3.918894005903788*^9}, {
+  3.919141875065089*^9, 3.919142054059657*^9}, {3.919142169073207*^9, 
+  3.9191422465946903`*^9}, {3.919142282771018*^9, 
+  3.9191423722853813`*^9}},ExpressionUUID->"46c61048-0979-473c-ac28-\
+34936109f2ba"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MergeDirections", "[", 
+   RowBox[{"forward_", ",", " ", "reverse_"}], "]"}], " ", ":=", " ", 
+  RowBox[{"Module", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"f", ",", " ", "r", ",", " ", "merged", ",", " ", "nk"}], "}"}], 
+    ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"f", " ", "=", " ", 
+      RowBox[{"DataToAssociation", "[", "forward", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"r", " ", "=", " ", 
+      RowBox[{"DataToAssociation", "[", "reverse", "]"}]}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"nk", " ", "=", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"StringJoin", "[", 
+            RowBox[{
+             RowBox[{"x", "[", 
+              RowBox[{"[", "1", "]"}], "]"}], ",", " ", "\"\<_fwd\>\""}], 
+            "]"}], ",", " ", 
+           RowBox[{"StringJoin", "[", 
+            RowBox[{
+             RowBox[{"x", "[", 
+              RowBox[{"[", "2", "]"}], "]"}], ",", " ", "\"\<_fwd\>\""}], 
+            "]"}]}], "}"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"f", "[", "nk", "]"}], " ", "=", " ", 
+         RowBox[{"f", "[", "x", "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"f", "[", "x", "]"}], " ", "=."}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", " ", 
+         RowBox[{"Keys", "[", "f", "]"}]}], "}"}]}], "\[IndentingNewLine]", 
+      "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"nk", " ", "=", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"StringJoin", "[", 
+            RowBox[{
+             RowBox[{"x", "[", 
+              RowBox[{"[", "1", "]"}], "]"}], ",", " ", "\"\<_rev\>\""}], 
+            "]"}], ",", " ", 
+           RowBox[{"StringJoin", "[", 
+            RowBox[{
+             RowBox[{"x", "[", 
+              RowBox[{"[", "2", "]"}], "]"}], ",", " ", "\"\<_rev\>\""}], 
+            "]"}]}], "}"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"r", "[", "nk", "]"}], " ", "=", " ", 
+         RowBox[{"r", "[", "x", "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"r", "[", "x", "]"}], " ", "=."}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", " ", 
+         RowBox[{"Keys", "[", "r", "]"}]}], "}"}]}], "\[IndentingNewLine]", 
+      "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"merged", " ", "=", " ", 
+      RowBox[{"Join", "[", 
+       RowBox[{"f", ",", " ", "r"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     "merged"}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.91914247221876*^9, 3.919142477729063*^9}, {
+   3.919142511325086*^9, 3.9191426023218727`*^9}, 3.919142648471376*^9, {
+   3.9191426855912848`*^9, 3.9191426927706757`*^9}, {3.919142745134561*^9, 
+   3.9191428501238937`*^9}, {3.9191428855745173`*^9, 3.919142978643355*^9}, {
+   3.9191430180308733`*^9, 3.91914310739019*^9}, {3.919143139240511*^9, 
+   3.919143342742365*^9}, {3.919143380209844*^9, 3.919143392247274*^9}},
  CellLabel->
-  "In[122]:=",ExpressionUUID->"eb6e7b0a-49bd-4036-8fe9-95aa0544366c"],
+  "In[228]:=",ExpressionUUID->"b4ece0e7-155a-4790-9cd1-283a61fb48c8"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.917709537852675*^9, 3.917709545818152*^9}, {
+  3.917709577057252*^9, 3.917709591286549*^9}, {3.917709629472536*^9, 
+  3.917709663632736*^9}, {3.918881601329464*^9, 3.918881601834118*^9}, {
+  3.918884925631616*^9, 3.9188849439354267`*^9}, {3.918885794809847*^9, 
+  3.918885828819264*^9}, {3.918887072654002*^9, 3.918887108977192*^9}, {
+  3.918889397500215*^9, 3.918889398126083*^9}, {3.918893112930521*^9, 
+  3.918893122240788*^9}, {3.9188939737848587`*^9, 3.918894005903788*^9}, {
+  3.919141875065089*^9, 3.919142054059657*^9}, {3.919142169073207*^9, 
+  3.9191422465946903`*^9}, {3.919142282771018*^9, 
+  3.9191423722853813`*^9}},ExpressionUUID->"3744a3a5-14f3-4800-892f-\
+a6e2178f7d2c"],
 
 Cell[BoxData[
  RowBox[{
@@ -520,9 +618,7 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"Module", "[", 
     RowBox[{
-     RowBox[{"{", 
-      RowBox[{"TAPsFromRoute", ",", "TAPsFromNetwork", ",", " ", "out"}], 
-      "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", "TAPsFromRoute", "}"}], ",", "\[IndentingNewLine]", 
      RowBox[{
       RowBox[{
        RowBox[{"TAPsFromRoute", "[", 
@@ -561,32 +657,13 @@ Cell[BoxData[
           RowBox[{"Do", "[", "\[IndentingNewLine]", 
            RowBox[{
             RowBox[{
-             RowBox[{"If", "[", 
-              RowBox[{
-               RowBox[{"MemberQ", "[", 
-                RowBox[{"transitions", ",", " ", 
-                 RowBox[{"MakeNiceTransitionName", "[", 
-                  RowBox[{"routeNumber", ",", " ", 
-                   RowBox[{"pair", "[", 
-                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], "]"}], ",", 
-               "\[IndentingNewLine]", 
-               RowBox[{"AppendTo", "[", 
-                RowBox[{"transitions", ",", " ", 
-                 RowBox[{"StringJoin", "[", 
-                  RowBox[{
-                   RowBox[{"MakeNiceTransitionName", "[", 
-                    RowBox[{"routeNumber", ",", " ", 
-                    RowBox[{"pair", "[", 
-                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}], ",", " ", 
-                   "\"\<_2\>\""}], "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
-               RowBox[{
-                RowBox[{"AppendTo", "[", 
-                 RowBox[{"transitions", ",", 
-                  RowBox[{"MakeNiceTransitionName", "[", 
-                   RowBox[{"routeNumber", ",", " ", 
-                    RowBox[{"pair", "[", 
-                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], "]"}], ";"}]}],
-               "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+             RowBox[{"AppendTo", "[", 
+              RowBox[{"transitions", ",", 
+               RowBox[{"MakeNiceTransitionName", "[", 
+                RowBox[{"routeNumber", ",", " ", 
+                 RowBox[{"pair", "[", 
+                  RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], "]"}], ";", 
+             "\[IndentingNewLine]", 
              RowBox[{"AppendTo", "[", 
               RowBox[{"places", ",", "  ", 
                RowBox[{
@@ -632,6 +709,12 @@ Cell[BoxData[
                 RowBox[{"1", ";;", 
                  RowBox[{"-", "1"}]}], "]"}], "]"}]}], "}"}]}], 
            "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+          RowBox[{"startEndStop", " ", "=", " ", 
+           RowBox[{"StringReplace", "[", 
+            RowBox[{"startStop", ",", " ", 
+             RowBox[{"{", 
+              RowBox[{"\"\<fwd\>\"", "->", "\"\<rev\>\""}], "}"}]}], "]"}]}], 
+          ";", "\[IndentingNewLine]", 
           RowBox[{"AppendTo", "[", 
            RowBox[{"places", ",", " ", 
             RowBox[{
@@ -642,7 +725,7 @@ Cell[BoxData[
               RowBox[{"[", 
                RowBox[{"Key", "[", 
                 RowBox[{"List", "[", 
-                 RowBox[{"endStop", ",", " ", "startStop"}], "]"}], "]"}], 
+                 RowBox[{"endStop", ",", " ", "startEndStop"}], "]"}], "]"}], 
                "]"}], "]"}]}]}], "]"}], " ", ";", " ", 
           RowBox[{"(*", 
            RowBox[{
@@ -750,9 +833,13 @@ Cell[BoxData[
    3.918900177047455*^9, 3.918900198388921*^9}, {3.918900294495393*^9, 
    3.918900407883443*^9}, 3.918900495488174*^9, {3.918900543875449*^9, 
    3.918900544266515*^9}, {3.918900576668517*^9, 3.918900637269363*^9}, {
-   3.918901063727889*^9, 
-   3.918901090434144*^9}},ExpressionUUID->"3aa5fb71-2fe2-7140-97ad-\
-6a4b60f3c6ee"],
+   3.918901063727889*^9, 3.918901090434144*^9}, {3.918901507346434*^9, 
+   3.918901539461437*^9}, 3.918902345449935*^9, {3.918903092760992*^9, 
+   3.9189030995579453`*^9}, {3.9191434199453487`*^9, 
+   3.9191434262437057`*^9}, {3.9191439984824467`*^9, 3.919144068501327*^9}, {
+   3.919144114086277*^9, 3.9191441148389378`*^9}, {3.919144150242959*^9, 
+   3.9191442289399137`*^9}},ExpressionUUID->"deb88299-6c08-4c61-a6ed-\
+28fc7f3044d7"],
 
 Cell[BoxData[
  RowBox[{"(*", " ", 
@@ -768,234 +855,124 @@ Cell[BoxData[
     "time", " ", "at", " ", "the", " ", "arrival", " ", 
     RowBox[{"stop", "."}]}]}], " ", "*)"}]], "Input",
  CellChangeTimes->{{3.918282288329172*^9, 
-  3.918282325851677*^9}},ExpressionUUID->"15e49167-9daf-ea43-9696-\
-91a5f49b3179"],
+  3.918282325851677*^9}},ExpressionUUID->"f9efba9f-f31a-4606-8f2a-\
+43614fdd7145"],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[{
- RowBox[{"b1f", " ", "=", " ", 
-  RowBox[{
-  "DataToAssociation", "[", "\"\<2_RGU_Ashwood.txt\>\"", 
-   "]"}]}], "\[IndentingNewLine]", 
- RowBox[{"b1r", " ", "=", " ", 
-  RowBox[{
-  "DataToAssociation", "[", "\"\<1_Danestone_RGU.txt\>\"", 
-   "]"}]}], "\[IndentingNewLine]", 
+Cell[BoxData[
  RowBox[{"b1", " ", "=", " ", 
-  RowBox[{"Join", "[", 
-   RowBox[{"b1f", ",", " ", "b1r"}], "]"}]}], "\[IndentingNewLine]"}], "Input",\
-
+  RowBox[{"MergeDirections", "[", 
+   RowBox[{
+   "\"\<2_RGU_Ashwood.txt\>\"", ",", " ", "\"\<1_Danestone_RGU.txt\>\""}], 
+   "]"}]}]], "Input",
  CellChangeTimes->{{3.918881938718025*^9, 3.9188819391035767`*^9}, {
   3.918889927614497*^9, 3.918889943138098*^9}, {3.918891840600931*^9, 
   3.918891873011689*^9}, {3.918892474082038*^9, 3.918892553638226*^9}, {
   3.91889259481057*^9, 3.918892623190405*^9}, {3.918892664754293*^9, 
   3.9188926983829803`*^9}, {3.918892765540331*^9, 3.918892813002934*^9}, {
   3.918892993109445*^9, 3.918893019840701*^9}, {3.918893070728305*^9, 
-  3.918893081498898*^9}},
+  3.918893081498898*^9}, {3.919142388823834*^9, 3.919142463734351*^9}, {
+  3.919143468662496*^9, 3.919143513207972*^9}},
  CellLabel->
-  "In[173]:=",ExpressionUUID->"89811bb1-1cd2-4cc7-a1c5-f2fd78aba927"],
+  "In[234]:=",ExpressionUUID->"e52299f3-c2ef-460f-abc6-7ad4c96e79a4"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
   RowBox[{
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Bridge_of_Dee_Court\"\>", 
-      ",", "\<\"Robert_Gordon_University\"\>"}], "}"}], "\[Rule]", 
+     RowBox[{"\<\"Bridge_of_Dee_Court_fwd\"\>", 
+      ",", "\<\"Robert_Gordon_University_fwd\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Robert_Gordon_University\"\>", 
-      ",", "\<\"Auchinyell_Gardens\"\>"}], "}"}], "\[Rule]", 
+     RowBox[{"\<\"Robert_Gordon_University_fwd\"\>", 
+      ",", "\<\"Auchinyell_Gardens_fwd\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Auchinyell_Gardens\"\>", 
-      ",", "\<\"Great_Western_Road\"\>"}], "}"}], "\[Rule]", 
+     RowBox[{"\<\"Auchinyell_Gardens_fwd\"\>", 
+      ",", "\<\"Great_Western_Road_fwd\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Great_Western_Road\"\>", ",", "\<\"Castle_Street\"\>"}], 
-     "}"}], "\[Rule]", 
+     RowBox[{"\<\"Great_Western_Road_fwd\"\>", 
+      ",", "\<\"Castle_Street_fwd\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"11.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Castle_Street\"\>", ",", "\<\"Errol_Street\"\>"}], "}"}], 
-    "\[Rule]", 
+     RowBox[{"\<\"Castle_Street_fwd\"\>", ",", "\<\"Errol_Street_fwd\"\>"}], 
+     "}"}], "\[Rule]", 
     TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Errol_Street\"\>", ",", "\<\"School_Drive\"\>"}], "}"}], 
-    "\[Rule]", 
+     RowBox[{"\<\"Errol_Street_fwd\"\>", ",", "\<\"School_Drive_fwd\"\>"}], 
+     "}"}], "\[Rule]", 
     TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"School_Drive\"\>", ",", "\<\"Fraserfield_Gardens\"\>"}], 
-     "}"}], "\[Rule]", 
+     RowBox[{"\<\"School_Drive_fwd\"\>", 
+      ",", "\<\"Fraserfield_Gardens_fwd\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Fraserfield_Gardens\"\>", ",", "\<\"Wallacebrae_Road\"\>"}],
-      "}"}], "\[Rule]", 
-    TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}]}], "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{3.9189004136057777`*^9, 3.918900502788683*^9},
- CellLabel->
-  "Out[173]=",ExpressionUUID->"720ea633-8b25-4250-a533-b48f1d22a1c9"],
-
-Cell[BoxData[
- RowBox[{"\[LeftAssociation]", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Wallacebrae_Road\"\>", ",", "\<\"Bodachra_Place\"\>"}], 
-     "}"}], "\[Rule]", 
-    TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Bodachra_Place\"\>", ",", "\<\"North_Donside_Road\"\>"}], 
-     "}"}], "\[Rule]", 
-    TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"North_Donside_Road\"\>", ",", "\<\"School_Road\"\>"}], 
-     "}"}], "\[Rule]", 
-    TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"School_Road\"\>", ",", "\<\"Errol_Street\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Errol_Street\"\>", ",", "\<\"Castle_Street\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Castle_Street\"\>", ",", "\<\"Music_Hall\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Music_Hall\"\>", ",", "\<\"Bridge_of_Dee_Court\"\>"}], 
-     "}"}], "\[Rule]", 
-    TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}]}], "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{3.9189004136057777`*^9, 3.918900502855687*^9},
- CellLabel->
-  "Out[174]=",ExpressionUUID->"9a41581f-d335-4a19-9d1b-2354916296f2"],
-
-Cell[BoxData[
- RowBox[{"\[LeftAssociation]", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Bridge_of_Dee_Court\"\>", 
-      ",", "\<\"Robert_Gordon_University\"\>"}], "}"}], "\[Rule]", 
-    TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Robert_Gordon_University\"\>", 
-      ",", "\<\"Auchinyell_Gardens\"\>"}], "}"}], "\[Rule]", 
-    TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Auchinyell_Gardens\"\>", 
-      ",", "\<\"Great_Western_Road\"\>"}], "}"}], "\[Rule]", 
-    TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Great_Western_Road\"\>", ",", "\<\"Castle_Street\"\>"}], 
-     "}"}], "\[Rule]", 
-    TemplateBox[{"11.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Castle_Street\"\>", ",", "\<\"Errol_Street\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Errol_Street\"\>", ",", "\<\"School_Drive\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"School_Drive\"\>", ",", "\<\"Fraserfield_Gardens\"\>"}], 
-     "}"}], "\[Rule]", 
-    TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Fraserfield_Gardens\"\>", ",", "\<\"Wallacebrae_Road\"\>"}],
-      "}"}], "\[Rule]", 
+     RowBox[{"\<\"Fraserfield_Gardens_fwd\"\>", 
+      ",", "\<\"Wallacebrae_Road_fwd\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Wallacebrae_Road\"\>", ",", "\<\"Bodachra_Place\"\>"}], 
-     "}"}], "\[Rule]", 
+     RowBox[{"\<\"Wallacebrae_Road_rev\"\>", 
+      ",", "\<\"Bodachra_Place_rev\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"Bodachra_Place\"\>", ",", "\<\"North_Donside_Road\"\>"}], 
-     "}"}], "\[Rule]", 
+     RowBox[{"\<\"Bodachra_Place_rev\"\>", 
+      ",", "\<\"North_Donside_Road_rev\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"North_Donside_Road\"\>", ",", "\<\"School_Road\"\>"}], 
-     "}"}], "\[Rule]", 
+     RowBox[{"\<\"North_Donside_Road_rev\"\>", 
+      ",", "\<\"School_Road_rev\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}], ",", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"\<\"School_Road\"\>", ",", "\<\"Errol_Street\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Errol_Street\"\>", ",", "\<\"Castle_Street\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Castle_Street\"\>", ",", "\<\"Music_Hall\"\>"}], "}"}], 
-    "\[Rule]", 
-    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-     "Quantity"]}], ",", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\<\"Music_Hall\"\>", ",", "\<\"Bridge_of_Dee_Court\"\>"}], 
+     RowBox[{"\<\"School_Road_rev\"\>", ",", "\<\"Errol_Street_rev\"\>"}], 
      "}"}], "\[Rule]", 
+    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Errol_Street_rev\"\>", ",", "\<\"Castle_Street_rev\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Castle_Street_rev\"\>", ",", "\<\"Music_Hall_rev\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Music_Hall_rev\"\>", 
+      ",", "\<\"Bridge_of_Dee_Court_rev\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}]}], "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{3.9189004136057777`*^9, 3.918900502861664*^9},
+ CellChangeTimes->{3.919143562919191*^9},
  CellLabel->
-  "Out[175]=",ExpressionUUID->"e51737c5-f5bd-4346-89e4-178edac48065"]
+  "Out[234]=",ExpressionUUID->"e0d05b6d-60a9-4691-a77e-455ca0b24801"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1003,149 +980,176 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Algorithm821", "[", 
   RowBox[{
-   RowBox[{"List", "[", "b1", "]"}], ",", " ", 
-   RowBox[{"List", "[", "\"\<1\>\"", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.918893720430972*^9, 3.918893730135549*^9}, {
-  3.9188938167766743`*^9, 3.918893818111189*^9}},
+   RowBox[{"{", "b1", "}"}], ",", " ", 
+   RowBox[{"{", "\"\<1\>\"", "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.919143524343219*^9, 3.9191435269059258`*^9}, {
+  3.91914362750814*^9, 3.919143628863799*^9}},
  CellLabel->
-  "In[184]:=",ExpressionUUID->"89bce76c-a78c-4941-b5ed-eec46c42fa55"],
+  "In[240]:=",ExpressionUUID->"eac673e3-cc9b-4b1a-ba7b-83164e8f68d0"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"\<\"q_1_Bridge_of_Dee_Court\"\>", 
-     ",", "\<\"q_1_Robert_Gordon_University\"\>", 
-     ",", "\<\"q_1_Auchinyell_Gardens\"\>", 
-     ",", "\<\"q_1_Great_Western_Road\"\>", ",", "\<\"q_1_Castle_Street\"\>", 
-     ",", "\<\"q_1_Errol_Street\"\>", ",", "\<\"q_1_School_Drive\"\>", 
-     ",", "\<\"q_1_Fraserfield_Gardens\"\>", 
-     ",", "\<\"q_1_Wallacebrae_Road\"\>", ",", "\<\"q_1_Bodachra_Place\"\>", 
-     ",", "\<\"q_1_North_Donside_Road\"\>", ",", "\<\"q_1_School_Road\"\>", 
-     ",", "\<\"q_1_Errol_Street_2\"\>", ",", "\<\"q_1_Castle_Street_2\"\>", 
-     ",", "\<\"q_1_Music_Hall\"\>", 
-     ",", "\<\"q_1_Bridge_of_Dee_Court_2\"\>"}], "}"}], ",", 
+    RowBox[{"\<\"q_1_Bridge_of_Dee_Court_fwd\"\>", 
+     ",", "\<\"q_1_Robert_Gordon_University_fwd\"\>", 
+     ",", "\<\"q_1_Auchinyell_Gardens_fwd\"\>", 
+     ",", "\<\"q_1_Great_Western_Road_fwd\"\>", 
+     ",", "\<\"q_1_Castle_Street_fwd\"\>", 
+     ",", "\<\"q_1_Errol_Street_fwd\"\>", ",", "\<\"q_1_School_Drive_fwd\"\>",
+      ",", "\<\"q_1_Fraserfield_Gardens_fwd\"\>", 
+     ",", "\<\"q_1_Wallacebrae_Road_fwd\"\>", 
+     ",", "\<\"q_1_Bodachra_Place_rev\"\>", 
+     ",", "\<\"q_1_North_Donside_Road_rev\"\>", 
+     ",", "\<\"q_1_School_Road_rev\"\>", ",", "\<\"q_1_Errol_Street_rev\"\>", 
+     ",", "\<\"q_1_Castle_Street_rev\"\>", ",", "\<\"q_1_Music_Hall_rev\"\>", 
+     ",", "\<\"q_1_Bridge_of_Dee_Court_rev\"\>"}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{
-     RowBox[{"\<\"q_1_Bridge_of_Dee_Court\"\>", 
-      "\[Rule]", "\<\"p_1_Bridge_of_Dee_Court_Robert_Gordon_University\"\>"}],
-      ",", 
-     RowBox[{"\<\"p_1_Bridge_of_Dee_Court_Robert_Gordon_University\"\>", 
-      "\[Rule]", "\<\"q_1_Robert_Gordon_University\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Robert_Gordon_University\"\>", 
-      "\[Rule]", "\<\"p_1_Robert_Gordon_University_Auchinyell_Gardens\"\>"}], 
+     RowBox[{"\<\"q_1_Bridge_of_Dee_Court_fwd\"\>", 
+      "\[Rule]", \
+"\<\"p_1_Bridge_of_Dee_Court_fwd+Robert_Gordon_University_fwd\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Bridge_of_Dee_Court_fwd+Robert_Gordon_University_fwd\"\>\
+", "\[Rule]", "\<\"q_1_Robert_Gordon_University_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Robert_Gordon_University_fwd\"\>", 
+      "\[Rule]", "\<\"p_1_Robert_Gordon_University_fwd+Auchinyell_Gardens_fwd\
+\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Robert_Gordon_University_fwd+Auchinyell_Gardens_fwd\"\>\
+", "\[Rule]", "\<\"q_1_Auchinyell_Gardens_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Auchinyell_Gardens_fwd\"\>", 
+      "\[Rule]", \
+"\<\"p_1_Auchinyell_Gardens_fwd+Great_Western_Road_fwd\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Auchinyell_Gardens_fwd+Great_Western_Road_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_Great_Western_Road_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Great_Western_Road_fwd\"\>", 
+      "\[Rule]", "\<\"p_1_Great_Western_Road_fwd+Castle_Street_fwd\"\>"}], 
      ",", 
-     RowBox[{"\<\"p_1_Robert_Gordon_University_Auchinyell_Gardens\"\>", 
-      "\[Rule]", "\<\"q_1_Auchinyell_Gardens\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Auchinyell_Gardens\"\>", 
-      "\[Rule]", "\<\"p_1_Auchinyell_Gardens_Great_Western_Road\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Auchinyell_Gardens_Great_Western_Road\"\>", 
-      "\[Rule]", "\<\"q_1_Great_Western_Road\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Great_Western_Road\"\>", 
-      "\[Rule]", "\<\"p_1_Great_Western_Road_Castle_Street\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Great_Western_Road_Castle_Street\"\>", 
-      "\[Rule]", "\<\"q_1_Castle_Street\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Castle_Street\"\>", 
-      "\[Rule]", "\<\"p_1_Castle_Street_Errol_Street\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_Errol_Street\"\>", 
-      "\[Rule]", "\<\"q_1_Errol_Street\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Errol_Street\"\>", 
-      "\[Rule]", "\<\"p_1_Errol_Street_School_Drive\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_School_Drive\"\>", 
-      "\[Rule]", "\<\"q_1_School_Drive\"\>"}], ",", 
-     RowBox[{"\<\"q_1_School_Drive\"\>", 
-      "\[Rule]", "\<\"p_1_School_Drive_Fraserfield_Gardens\"\>"}], ",", 
-     RowBox[{"\<\"p_1_School_Drive_Fraserfield_Gardens\"\>", 
-      "\[Rule]", "\<\"q_1_Fraserfield_Gardens\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Fraserfield_Gardens\"\>", 
-      "\[Rule]", "\<\"p_1_Fraserfield_Gardens_Wallacebrae_Road\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Fraserfield_Gardens_Wallacebrae_Road\"\>", 
-      "\[Rule]", "\<\"q_1_Wallacebrae_Road\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Wallacebrae_Road\"\>", 
-      "\[Rule]", "\<\"p_1_Wallacebrae_Road_Bodachra_Place\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Wallacebrae_Road_Bodachra_Place\"\>", 
-      "\[Rule]", "\<\"q_1_Bodachra_Place\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Bodachra_Place\"\>", 
-      "\[Rule]", "\<\"p_1_Bodachra_Place_North_Donside_Road\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Bodachra_Place_North_Donside_Road\"\>", 
-      "\[Rule]", "\<\"q_1_North_Donside_Road\"\>"}], ",", 
-     RowBox[{"\<\"q_1_North_Donside_Road\"\>", 
-      "\[Rule]", "\<\"p_1_North_Donside_Road_School_Road\"\>"}], ",", 
-     RowBox[{"\<\"p_1_North_Donside_Road_School_Road\"\>", 
-      "\[Rule]", "\<\"q_1_School_Road\"\>"}], ",", 
-     RowBox[{"\<\"q_1_School_Road\"\>", 
-      "\[Rule]", "\<\"p_1_School_Road_Errol_Street\"\>"}], ",", 
-     RowBox[{"\<\"p_1_School_Road_Errol_Street\"\>", 
-      "\[Rule]", "\<\"q_1_Errol_Street\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Errol_Street\"\>", 
-      "\[Rule]", "\<\"p_1_Errol_Street_Castle_Street\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_Castle_Street\"\>", 
-      "\[Rule]", "\<\"q_1_Castle_Street\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Castle_Street\"\>", 
-      "\[Rule]", "\<\"p_1_Castle_Street_Music_Hall\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_Music_Hall\"\>", 
-      "\[Rule]", "\<\"q_1_Music_Hall\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Music_Hall\"\>", 
-      "\[Rule]", "\<\"p_1_Music_Hall_Bridge_of_Dee_Court\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Music_Hall_Bridge_of_Dee_Court\"\>", 
-      "\[Rule]", "\<\"q_1_Bridge_of_Dee_Court\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Music_Hall\"\>", 
-      "\[Rule]", "\<\"p_1_Music_Hall_Bridge_of_Dee_Court\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Music_Hall_Bridge_of_Dee_Court\"\>", 
-      "\[Rule]", "\<\"q_1_Bridge_of_Dee_Court\"\>"}]}], "}"}], ",", 
+     RowBox[{"\<\"p_1_Great_Western_Road_fwd+Castle_Street_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_Castle_Street_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Castle_Street_fwd\"\>", 
+      "\[Rule]", "\<\"p_1_Castle_Street_fwd+Errol_Street_fwd\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Castle_Street_fwd+Errol_Street_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_Errol_Street_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Errol_Street_fwd\"\>", 
+      "\[Rule]", "\<\"p_1_Errol_Street_fwd+School_Drive_fwd\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Errol_Street_fwd+School_Drive_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_School_Drive_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_School_Drive_fwd\"\>", 
+      "\[Rule]", "\<\"p_1_School_Drive_fwd+Fraserfield_Gardens_fwd\"\>"}], 
+     ",", 
+     RowBox[{"\<\"p_1_School_Drive_fwd+Fraserfield_Gardens_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_Fraserfield_Gardens_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Fraserfield_Gardens_fwd\"\>", 
+      "\[Rule]", "\<\"p_1_Fraserfield_Gardens_fwd+Wallacebrae_Road_fwd\"\>"}],
+      ",", 
+     RowBox[{"\<\"p_1_Fraserfield_Gardens_fwd+Wallacebrae_Road_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_Wallacebrae_Road_fwd\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Wallacebrae_Road_rev\"\>", 
+      "\[Rule]", "\<\"p_1_Wallacebrae_Road_rev+Bodachra_Place_rev\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Wallacebrae_Road_rev+Bodachra_Place_rev\"\>", 
+      "\[Rule]", "\<\"q_1_Bodachra_Place_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Bodachra_Place_rev\"\>", 
+      "\[Rule]", "\<\"p_1_Bodachra_Place_rev+North_Donside_Road_rev\"\>"}], 
+     ",", 
+     RowBox[{"\<\"p_1_Bodachra_Place_rev+North_Donside_Road_rev\"\>", 
+      "\[Rule]", "\<\"q_1_North_Donside_Road_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_North_Donside_Road_rev\"\>", 
+      "\[Rule]", "\<\"p_1_North_Donside_Road_rev+School_Road_rev\"\>"}], ",", 
+     
+     RowBox[{"\<\"p_1_North_Donside_Road_rev+School_Road_rev\"\>", 
+      "\[Rule]", "\<\"q_1_School_Road_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_School_Road_rev\"\>", 
+      "\[Rule]", "\<\"p_1_School_Road_rev+Errol_Street_rev\"\>"}], ",", 
+     RowBox[{"\<\"p_1_School_Road_rev+Errol_Street_rev\"\>", 
+      "\[Rule]", "\<\"q_1_Errol_Street_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Errol_Street_rev\"\>", 
+      "\[Rule]", "\<\"p_1_Errol_Street_rev+Castle_Street_rev\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Errol_Street_rev+Castle_Street_rev\"\>", 
+      "\[Rule]", "\<\"q_1_Castle_Street_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Castle_Street_rev\"\>", 
+      "\[Rule]", "\<\"p_1_Castle_Street_rev+Music_Hall_rev\"\>"}], ",", 
+     RowBox[{"\<\"p_1_Castle_Street_rev+Music_Hall_rev\"\>", 
+      "\[Rule]", "\<\"q_1_Music_Hall_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Music_Hall_rev\"\>", 
+      "\[Rule]", "\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_rev\"\>"}], ",", 
+     
+     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_rev\"\>", 
+      "\[Rule]", "\<\"q_1_Bridge_of_Dee_Court_rev\"\>"}], ",", 
+     RowBox[{"\<\"q_1_Music_Hall_rev\"\>", 
+      "\[Rule]", "\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_fwd\"\>"}], ",", 
+     
+     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_fwd\"\>", 
+      "\[Rule]", "\<\"q_1_Bridge_of_Dee_Court_fwd\"\>"}]}], "}"}], ",", 
    RowBox[{"\[LeftAssociation]", 
     RowBox[{
-     RowBox[{"\<\"p_1_Bridge_of_Dee_Court_Robert_Gordon_University\"\>", 
-      "\[Rule]", 
+     RowBox[{"\<\"p_1_Bridge_of_Dee_Court_fwd+Robert_Gordon_University_fwd\"\>\
+", "\[Rule]", 
       TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Robert_Gordon_University_Auchinyell_Gardens\"\>", 
+     RowBox[{"\<\"p_1_Robert_Gordon_University_fwd+Auchinyell_Gardens_fwd\"\>\
+", "\[Rule]", 
+      TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
+       "Quantity"]}], ",", 
+     RowBox[{"\<\"p_1_Auchinyell_Gardens_fwd+Great_Western_Road_fwd\"\>", 
       "\[Rule]", 
       TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Auchinyell_Gardens_Great_Western_Road\"\>", "\[Rule]", 
-      TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Great_Western_Road_Castle_Street\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Great_Western_Road_fwd+Castle_Street_fwd\"\>", 
+      "\[Rule]", 
       TemplateBox[{"11.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_Errol_Street\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Castle_Street_fwd+Errol_Street_fwd\"\>", "\[Rule]", 
       TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_School_Drive\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Errol_Street_fwd+School_Drive_fwd\"\>", "\[Rule]", 
       TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_School_Drive_Fraserfield_Gardens\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_School_Drive_fwd+Fraserfield_Gardens_fwd\"\>", 
+      "\[Rule]", 
       TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Fraserfield_Gardens_Wallacebrae_Road\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Fraserfield_Gardens_fwd+Wallacebrae_Road_fwd\"\>", 
+      "\[Rule]", 
       TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Wallacebrae_Road_Bodachra_Place\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Wallacebrae_Road_rev+Bodachra_Place_rev\"\>", "\[Rule]", 
       TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Bodachra_Place_North_Donside_Road\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Bodachra_Place_rev+North_Donside_Road_rev\"\>", 
+      "\[Rule]", 
       TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_North_Donside_Road_School_Road\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_North_Donside_Road_rev+School_Road_rev\"\>", "\[Rule]", 
+      
       TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_School_Road_Errol_Street\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_School_Road_rev+Errol_Street_rev\"\>", "\[Rule]", 
       TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_Castle_Street\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Errol_Street_rev+Castle_Street_rev\"\>", "\[Rule]", 
       TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_Music_Hall\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Castle_Street_rev+Music_Hall_rev\"\>", "\[Rule]", 
       TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
        "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Music_Hall_Bridge_of_Dee_Court\"\>", "\[Rule]", 
+     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_rev\"\>", "\[Rule]", 
+      
       TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}]}], "\[RightAssociation]"}]}], "}"}]], "Output",
- CellChangeTimes->{3.9189004168736*^9, 3.918900505482204*^9, 
-  3.918900554150852*^9, 3.918900589154109*^9, 3.9189006431051817`*^9},
+       "Quantity"]}], ",", 
+     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_fwd\"\>", "\[Rule]", 
+      
+      RowBox[{"Missing", "[", 
+       RowBox[{"\<\"KeyAbsent\"\>", ",", 
+        RowBox[{"Key", "[", 
+         RowBox[{"{", 
+          
+          RowBox[{"\<\"Music_Hall_rev\"\>", 
+           ",", "\<\"Bridge_of_Dee_Court_fwd\"\>"}], "}"}], "]"}]}], 
+       "]"}]}]}], "\[RightAssociation]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9191435293678007`*^9, 3.9191436305325203`*^9, 
+  3.919143873309082*^9, 3.919144119113895*^9},
  CellLabel->
-  "Out[184]=",ExpressionUUID->"bd92b609-fdfd-4e04-ac68-5e128a871adf"]
+  "Out[240]=",ExpressionUUID->"758729f9-5e25-48e0-8472-a32ddeee775d"]
 }, Open  ]]
 },
 WindowSize->{1280, 685},
@@ -1166,29 +1170,29 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 19094, 392, 983, "Input",ExpressionUUID->"b03a98df-9478-49bd-83fa-cf115d72f7bb"],
-Cell[19655, 414, 219, 5, 30, "Input",ExpressionUUID->"20fcd9c4-e4fd-40ec-b8fd-c0f0e47f7178"],
-Cell[19877, 421, 194, 4, 30, "Input",ExpressionUUID->"2d988586-049a-40ca-89e3-948aa1146a6a"],
-Cell[20074, 427, 299, 8, 30, "Input",ExpressionUUID->"3b65de9a-cb7d-4abc-89a6-be7eadf24533"],
-Cell[20376, 437, 268, 6, 30, "Input",ExpressionUUID->"88b1ab7b-84f1-4c86-af15-e5b92d5609d4"],
-Cell[20647, 445, 284, 7, 30, "Input",ExpressionUUID->"2bb6ee93-9703-4a21-94d0-ddb3bae9b303"],
+Cell[558, 20, 19094, 392, 983, "Input",ExpressionUUID->"a609c1de-5601-4704-8293-efe2ccbd3fae"],
+Cell[19655, 414, 219, 5, 30, "Input",ExpressionUUID->"b30385cc-f050-4a84-9c9b-434e72a04bb8"],
+Cell[19877, 421, 194, 4, 30, "Input",ExpressionUUID->"7d8d46a5-badb-4436-90c1-7c5f59849be5"],
+Cell[20074, 427, 299, 8, 30, "Input",ExpressionUUID->"8aa7fffa-fd74-4215-b322-ca63094ada1b"],
+Cell[20376, 437, 268, 6, 30, "Input",ExpressionUUID->"31a05417-2b42-4aef-98ba-5170bfafe37b"],
+Cell[20647, 445, 284, 7, 30, "Input",ExpressionUUID->"73a58981-ae96-4126-bdc8-9d6e5b8ec020"],
 Cell[CellGroupData[{
-Cell[20956, 456, 154, 3, 30, "Input",ExpressionUUID->"f42c6798-abc0-42bb-914d-cbe75bf0a3e6"],
-Cell[21113, 461, 177, 3, 34, "Output",ExpressionUUID->"5744a94d-a076-8c40-9ee8-73e7bf979ff9"]
+Cell[20956, 456, 154, 3, 30, "Input",ExpressionUUID->"84e5face-02f1-4434-8bf7-dd90d1696466"],
+Cell[21113, 461, 177, 3, 34, "Output",ExpressionUUID->"dcc31fa9-ae56-43e8-8096-a6695a20f38f"]
 }, Open  ]],
-Cell[21305, 467, 609, 13, 30, "Input",ExpressionUUID->"49ce9c33-bcba-49ed-9b3f-e6d17db5888a"],
-Cell[21917, 482, 866, 16, 30, "Input",ExpressionUUID->"eb6e7b0a-49bd-4036-8fe9-95aa0544366c"],
-Cell[22786, 500, 12568, 254, 871, "Input",ExpressionUUID->"3aa5fb71-2fe2-7140-97ad-6a4b60f3c6ee"],
-Cell[35357, 756, 640, 15, 31, "Input",ExpressionUUID->"15e49167-9daf-ea43-9696-91a5f49b3179"],
+Cell[21305, 467, 657, 13, 30, "Input",ExpressionUUID->"d1a2c073-b1ca-40fb-96ab-7c58a109def3"],
+Cell[21965, 482, 1034, 19, 52, "Input",ExpressionUUID->"46c61048-0979-473c-ac28-34936109f2ba"],
+Cell[23002, 503, 3415, 80, 493, "Input",ExpressionUUID->"b4ece0e7-155a-4790-9cd1-283a61fb48c8"],
+Cell[26420, 585, 736, 11, 30, "Input",ExpressionUUID->"3744a3a5-14f3-4800-892f-a6e2178f7d2c"],
+Cell[27159, 598, 12151, 243, 829, "Input",ExpressionUUID->"deb88299-6c08-4c61-a6ed-28fc7f3044d7"],
+Cell[39313, 843, 640, 15, 31, "Input",ExpressionUUID->"f9efba9f-f31a-4606-8f2a-43614fdd7145"],
 Cell[CellGroupData[{
-Cell[36022, 775, 965, 21, 94, "Input",ExpressionUUID->"89811bb1-1cd2-4cc7-a1c5-f2fd78aba927"],
-Cell[36990, 798, 2018, 53, 87, "Output",ExpressionUUID->"720ea633-8b25-4250-a533-b48f1d22a1c9"],
-Cell[39011, 853, 1735, 47, 87, "Output",ExpressionUUID->"9a41581f-d335-4a19-9d1b-2354916296f2"],
-Cell[40749, 902, 3516, 95, 153, "Output",ExpressionUUID->"e51737c5-f5bd-4346-89e4-178edac48065"]
+Cell[39978, 862, 822, 15, 30, "Input",ExpressionUUID->"e52299f3-c2ef-460f-abc6-7ad4c96e79a4"],
+Cell[40803, 879, 3624, 95, 153, "Output",ExpressionUUID->"e0d05b6d-60a9-4691-a77e-455ca0b24801"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[44302, 1002, 366, 8, 30, "Input",ExpressionUUID->"89bce76c-a78c-4941-b5ed-eec46c42fa55"],
-Cell[44671, 1012, 7348, 135, 553, "Output",ExpressionUUID->"bd92b609-fdfd-4e04-ac68-5e128a871adf"]
+Cell[44464, 979, 349, 8, 30, "Input",ExpressionUUID->"eac673e3-cc9b-4b1a-ba7b-83164e8f68d0"],
+Cell[44816, 989, 8328, 162, 681, "Output",ExpressionUUID->"758729f9-5e25-48e0-8472-a32ddeee775d"]
 }, Open  ]]
 }
 ]
