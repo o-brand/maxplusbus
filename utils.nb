@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     55274,       1192]
-NotebookOptionsPosition[     53160,       1154]
-NotebookOutlinePosition[     53598,       1171]
-CellTagsIndexPosition[     53555,       1168]
+NotebookDataLength[     66773,       1424]
+NotebookOptionsPosition[     64588,       1387]
+NotebookOutlinePosition[     65026,       1404]
+CellTagsIndexPosition[     64983,       1401]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -400,30 +400,30 @@ Cell[BoxData[{
    3.9177089774530067`*^9, 3.917709061405451*^9}, {3.917709092786858*^9, 
    3.917709149769198*^9}, {3.917709256836886*^9, 3.917709260354549*^9}, {
    3.917709304557418*^9, 3.917709312872009*^9}, {3.9177095494134493`*^9, 
-   3.917709572570799*^9}, {3.918803895305233*^9, 3.9188039399571457`*^9}, {
+   3.917709572570799*^9}, {3.918803895305233*^9, 3.918803939957145*^9}, {
    3.9188039767945557`*^9, 3.918804000678975*^9}, {3.918804033639564*^9, 
-   3.918804076024797*^9}, {3.9188042006628027`*^9, 3.918804343111988*^9}, {
-   3.9188043847936487`*^9, 3.9188044224454393`*^9}, {3.9188044555341988`*^9, 
-   3.918804470231634*^9}, {3.9188191210495243`*^9, 3.918819146745064*^9}, {
-   3.9188194059067593`*^9, 3.918819484255077*^9}, {3.918819522845727*^9, 
-   3.918819705166541*^9}, {3.9188318886630707`*^9, 3.918831930243536*^9}, {
+   3.918804076024797*^9}, {3.918804200662803*^9, 3.918804343111988*^9}, {
+   3.9188043847936473`*^9, 3.9188044224454393`*^9}, {3.9188044555341988`*^9, 
+   3.918804470231634*^9}, {3.918819121049524*^9, 3.918819146745064*^9}, {
+   3.918819405906759*^9, 3.918819484255077*^9}, {3.918819522845727*^9, 
+   3.918819705166541*^9}, {3.918831888663071*^9, 3.918831930243536*^9}, {
    3.918831962707137*^9, 3.918832000005254*^9}, {3.9188860314961157`*^9, 
-   3.9188860327054768`*^9}, {3.9188917322403297`*^9, 
-   3.9188917378849154`*^9}, {3.918892639329525*^9, 3.9188926409237947`*^9}},
- CellLabel->"In[73]:=",ExpressionUUID->"a609c1de-5601-4704-8293-efe2ccbd3fae"],
+   3.918886032705477*^9}, {3.91889173224033*^9, 3.918891737884916*^9}, {
+   3.918892639329525*^9, 3.9188926409237947`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"35ed2c39-e45d-43b6-aefa-edd2ea779dce"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"x_", "\[CirclePlus]", "y_"}], ":=", 
   RowBox[{"Max", "[", 
    RowBox[{"x", ",", "y"}], "]"}]}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"b30385cc-f050-4a84-9c9b-434e72a04bb8"],
+ CellLabel->"In[2]:=",ExpressionUUID->"4e5a63ce-f4f1-4277-910d-88d6901710fc"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"x_", " ", "\[CircleTimes]", "y_"}], ":=", 
   RowBox[{"x", "+", "y"}]}]], "Input",
- CellLabel->"In[3]:=",ExpressionUUID->"7d8d46a5-badb-4436-90c1-7c5f59849be5"],
+ CellLabel->"In[3]:=",ExpressionUUID->"967114cb-0f1b-4adf-b847-4e75c9c0952d"],
 
 Cell[BoxData[
  RowBox[{
@@ -433,7 +433,7 @@ Cell[BoxData[
    RowBox[{"Max", ",", 
     RowBox[{"{", 
      RowBox[{"x", ",", "y"}], "}"}]}], "]"}]}]], "Input",
- CellLabel->"In[4]:=",ExpressionUUID->"8aa7fffa-fd74-4215-b322-ca63094ada1b"],
+ CellLabel->"In[4]:=",ExpressionUUID->"411b306c-7b23-43ff-9265-ae38e8a76e03"],
 
 Cell[BoxData[
  RowBox[{
@@ -441,7 +441,7 @@ Cell[BoxData[
    RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
   RowBox[{"Inner", "[", 
    RowBox[{"Plus", ",", "x", ",", "y", ",", "Max"}], "]"}]}]], "Input",
- CellLabel->"In[5]:=",ExpressionUUID->"31a05417-2b42-4aef-98ba-5170bfafe37b"],
+ CellLabel->"In[5]:=",ExpressionUUID->"feec1f19-81d5-47bf-be9b-f03958b3cd32"],
 
 Cell[BoxData[
  RowBox[{
@@ -450,66 +450,81 @@ Cell[BoxData[
   RowBox[{"Outer", "[", 
    RowBox[{"Max", ",", 
     RowBox[{"{", "x", "}"}], ",", "y"}], "]"}]}]], "Input",
- CellLabel->"In[6]:=",ExpressionUUID->"73a58981-ae96-4126-bdc8-9d6e5b8ec020"],
+ CellLabel->"In[6]:=",ExpressionUUID->"01eb0f01-0036-4525-a9b3-39fef5d7e25f"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"eps", "=", 
   RowBox[{"-", "Infinity"}]}]], "Input",
- CellLabel->"In[7]:=",ExpressionUUID->"84e5face-02f1-4434-8bf7-dd90d1696466"],
+ CellLabel->"In[7]:=",ExpressionUUID->"415293d7-cd90-436d-831a-12617695ee19"],
 
 Cell[BoxData[
  RowBox[{"-", "\[Infinity]"}]], "Output",
  CellChangeTimes->{3.9182813401287975`*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"dcc31fa9-ae56-43e8-8096-a6695a20f38f"]
+ CellLabel->"Out[7]=",ExpressionUUID->"c6042185-86fc-4c6d-8503-c6c5156de6ef"]
 }, Open  ]],
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
   RowBox[{"MakeNicePlaceName", "[", 
    RowBox[{"rn_", ",", " ", "s1_", ",", " ", "s2_"}], "]"}], " ", ":=", 
   RowBox[{"ToString", "[", 
    RowBox[{"StringJoin", "[", 
     RowBox[{
-    "\"\<p\>\"", ",", "\"\<_\>\"", ",", "rn", ",", "\"\<_\>\"", ",", " ", 
-     "s1", ",", " ", "\"\<+\>\"", ",", " ", "s2"}], "]"}], "]"}]}]], "Input",
+    "\"\<p:\>\"", ",", "rn", ",", "\"\<:\>\"", ",", " ", "s1", ",", " ", 
+     "\"\<+\>\"", ",", " ", "s2"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"returns", " ", "a", " ", "formatted", " ", "place", " ", "name"}],
+    " ", "*)"}]}]}], "Input",
  CellChangeTimes->{{3.918894061589178*^9, 3.9188940743480263`*^9}, {
   3.918894138217189*^9, 3.918894170051134*^9}, {3.9188943210645943`*^9, 
-  3.918894321524403*^9}, {3.919143842875165*^9, 3.9191438438782597`*^9}},
- CellLabel->
-  "In[236]:=",ExpressionUUID->"d1a2c073-b1ca-40fb-96ab-7c58a109def3"],
+  3.918894321524403*^9}, {3.919143842875165*^9, 3.919143843878259*^9}, {
+  3.91914638646982*^9, 3.91914641101024*^9}, {3.91933012259851*^9, 
+  3.919330131079455*^9}},ExpressionUUID->"3c92f7e5-657e-4fa3-acf6-\
+ac40181cf10e"],
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
-  RowBox[{
-   RowBox[{"MakeNiceTransitionName", "[", 
-    RowBox[{"rn_", ",", "q_"}], "]"}], " ", ":=", " ", 
-   RowBox[{"ToString", "[", 
-    RowBox[{"StringJoin", "[", 
-     RowBox[{"\"\<q_\>\"", ",", "rn", ",", "\"\<_\>\"", ",", " ", "q"}], 
-     "]"}], "]"}]}], "\[IndentingNewLine]"}]], "Input",
+  RowBox[{"MakeNiceTransitionName", "[", 
+   RowBox[{"rn_", ",", "q_"}], "]"}], " ", ":=", " ", 
+  RowBox[{"ToString", "[", 
+   RowBox[{"StringJoin", "[", 
+    RowBox[{"\"\<q:\>\"", ",", "rn", ",", "\"\<:\>\"", ",", " ", "q"}], "]"}],
+    "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "returns", " ", "a", " ", "formatted", " ", "transition", " ", "name"}], 
+   " ", "*)"}]}]}], "Input",
  CellChangeTimes->{{3.917709537852675*^9, 3.917709545818152*^9}, {
   3.917709577057252*^9, 3.917709591286549*^9}, {3.917709629472536*^9, 
   3.917709663632736*^9}, {3.918881601329464*^9, 3.918881601834118*^9}, {
-  3.918884925631616*^9, 3.9188849439354267`*^9}, {3.918885794809847*^9, 
+  3.918884925631616*^9, 3.918884943935427*^9}, {3.918885794809847*^9, 
   3.918885828819264*^9}, {3.918887072654002*^9, 3.918887108977192*^9}, {
   3.918889397500215*^9, 3.918889398126083*^9}, {3.918893112930521*^9, 
-  3.918893122240788*^9}, {3.9188939737848587`*^9, 3.918894005903788*^9}, {
+  3.918893122240788*^9}, {3.918893973784858*^9, 3.918894005903788*^9}, {
   3.919141875065089*^9, 3.919142054059657*^9}, {3.919142169073207*^9, 
-  3.9191422465946903`*^9}, {3.919142282771018*^9, 
-  3.9191423722853813`*^9}},ExpressionUUID->"46c61048-0979-473c-ac28-\
-34936109f2ba"],
+  3.9191422465946903`*^9}, {3.919142282771018*^9, 3.9191423722853813`*^9}, {
+  3.919146403314769*^9, 3.91914641885872*^9}, {3.919330079514592*^9, 
+  3.919330096911721*^9}},ExpressionUUID->"03550ad2-3d82-4105-92c8-\
+afa73c5457fe"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"MergeDirections", "[", 
    RowBox[{"forward_", ",", " ", "reverse_"}], "]"}], " ", ":=", " ", 
-  RowBox[{"Module", "[", "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
    RowBox[{
     RowBox[{"{", 
      RowBox[{"f", ",", " ", "r", ",", " ", "merged", ",", " ", "nk"}], "}"}], 
     ",", "\[IndentingNewLine]", 
+    RowBox[{"(*", " ", 
+     RowBox[{
+     "merges", " ", "the", " ", "forward", " ", "and", " ", "backward", " ", 
+      RowBox[{"(", "arbitary", ")"}], " ", "directions", " ", "of", " ", "a", 
+      " ", "bus", " ", "route"}], " ", "*)"}], "\[IndentingNewLine]", 
     RowBox[{
      RowBox[{"f", " ", "=", " ", 
       RowBox[{"DataToAssociation", "[", "forward", "]"}]}], ";", 
@@ -569,32 +584,82 @@ Cell[BoxData[
         RowBox[{"x", ",", " ", 
          RowBox[{"Keys", "[", "r", "]"}]}], "}"}]}], "\[IndentingNewLine]", 
       "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-     "\[IndentingNewLine]", 
      RowBox[{"merged", " ", "=", " ", 
       RowBox[{"Join", "[", 
        RowBox[{"f", ",", " ", "r"}], "]"}]}], ";", "\[IndentingNewLine]", 
      "merged"}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
  CellChangeTimes->{{3.91914247221876*^9, 3.919142477729063*^9}, {
    3.919142511325086*^9, 3.9191426023218727`*^9}, 3.919142648471376*^9, {
-   3.9191426855912848`*^9, 3.9191426927706757`*^9}, {3.919142745134561*^9, 
-   3.9191428501238937`*^9}, {3.9191428855745173`*^9, 3.919142978643355*^9}, {
+   3.919142685591284*^9, 3.919142692770675*^9}, {3.919142745134561*^9, 
+   3.919142850123893*^9}, {3.9191428855745173`*^9, 3.919142978643355*^9}, {
    3.9191430180308733`*^9, 3.91914310739019*^9}, {3.919143139240511*^9, 
-   3.919143342742365*^9}, {3.919143380209844*^9, 3.919143392247274*^9}},
- CellLabel->
-  "In[228]:=",ExpressionUUID->"b4ece0e7-155a-4790-9cd1-283a61fb48c8"],
+   3.919143342742365*^9}, {3.919143380209844*^9, 3.919143392247274*^9}, {
+   3.919144744961924*^9, 3.919144745173923*^9}, {3.919318259676495*^9, 
+   3.919318307118628*^9}, 3.919319452074347*^9, {3.919327731815255*^9, 
+   3.9193277567716618`*^9}, {3.919327892181288*^9, 3.919327893081295*^9}, {
+   3.919329932862021*^9, 3.919330057963992*^9}, 
+   3.919330140294734*^9},ExpressionUUID->"31323f97-3ab2-4596-9971-\
+6c88e6062f81"],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.917709537852675*^9, 3.917709545818152*^9}, {
-  3.917709577057252*^9, 3.917709591286549*^9}, {3.917709629472536*^9, 
-  3.917709663632736*^9}, {3.918881601329464*^9, 3.918881601834118*^9}, {
-  3.918884925631616*^9, 3.9188849439354267`*^9}, {3.918885794809847*^9, 
-  3.918885828819264*^9}, {3.918887072654002*^9, 3.918887108977192*^9}, {
-  3.918889397500215*^9, 3.918889398126083*^9}, {3.918893112930521*^9, 
-  3.918893122240788*^9}, {3.9188939737848587`*^9, 3.918894005903788*^9}, {
-  3.919141875065089*^9, 3.919142054059657*^9}, {3.919142169073207*^9, 
-  3.9191422465946903`*^9}, {3.919142282771018*^9, 
-  3.9191423722853813`*^9}},ExpressionUUID->"3744a3a5-14f3-4800-892f-\
-a6e2178f7d2c"],
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"GetTransitionStopName", "[", "transitionString_", "]"}], " ", ":=",
+    " ", 
+   RowBox[{"StringDrop", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"StringSplit", "[", 
+       RowBox[{"transitionString", ",", " ", "\"\<:\>\""}], "]"}], "[", 
+      RowBox[{"[", 
+       RowBox[{"-", "1"}], "]"}], "]"}], ",", 
+     RowBox[{"-", "4"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "returns", " ", "the", " ", "transition", " ", "name", " ", "from", " ", 
+    "a", " ", "\"\<nice\>\"", " ", "formatted", " ", "transition"}], " ", 
+   "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.91914247221876*^9, 3.919142477729063*^9}, {
+   3.919142511325086*^9, 3.9191426023218727`*^9}, 3.919142648471376*^9, {
+   3.919142685591284*^9, 3.919142692770675*^9}, {3.919142745134561*^9, 
+   3.919142850123893*^9}, {3.9191428855745173`*^9, 3.919142978643355*^9}, {
+   3.9191430180308733`*^9, 3.91914310739019*^9}, {3.919143139240511*^9, 
+   3.919143342742365*^9}, {3.919143380209844*^9, 3.919143392247274*^9}, {
+   3.919144744961924*^9, 3.919144745173923*^9}, {3.919318259676495*^9, 
+   3.919318307118628*^9}, 3.919319452074347*^9, {3.919327731815255*^9, 
+   3.9193277567716618`*^9}, {3.919327892181288*^9, 3.919327893081295*^9}, {
+   3.919329932862021*^9, 3.919329976568008*^9}, {3.919330105141409*^9, 
+   3.919330106779214*^9}},ExpressionUUID->"eb56b9bb-dadc-4427-ab0e-\
+80b258751220"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"GetTransitionRoute", "[", "transitionString_", "]"}], " ", ":=", 
+    
+    RowBox[{
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"transitionString", ",", " ", "\"\<:\>\""}], "]"}], "[", 
+     RowBox[{"[", "2", "]"}], "]"}]}], ";"}], 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "returns", " ", "the", " ", "transition", " ", "route", " ", "number", " ",
+     "from", " ", "a", " ", "\"\<nice\>\"", " ", "formatted", " ", 
+    "transition"}], " ", "*)"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.91914247221876*^9, 3.919142477729063*^9}, {
+   3.919142511325086*^9, 3.9191426023218727`*^9}, 3.919142648471376*^9, {
+   3.919142685591284*^9, 3.919142692770675*^9}, {3.919142745134561*^9, 
+   3.919142850123893*^9}, {3.9191428855745173`*^9, 3.919142978643355*^9}, {
+   3.9191430180308733`*^9, 3.91914310739019*^9}, {3.919143139240511*^9, 
+   3.919143342742365*^9}, {3.919143380209844*^9, 3.919143392247274*^9}, {
+   3.919144744961924*^9, 3.919144745173923*^9}, {3.919318259676495*^9, 
+   3.919318307118628*^9}, 3.919319452074347*^9, {3.919327731815255*^9, 
+   3.9193277567716618`*^9}, {3.919327892181288*^9, 3.919327893081295*^9}, {
+   3.919329932862021*^9, 3.919329976568008*^9}, {3.919330101691568*^9, 
+   3.9193301153126583`*^9}},ExpressionUUID->"037e4956-b6cf-4d8a-a6fb-\
+8a303e193e40"],
 
 Cell[BoxData[
  RowBox[{
@@ -614,198 +679,406 @@ Cell[BoxData[
       "and", " ", "backward", " ", "journey", " ", "of", " ", "a", " ", 
       "given", " ", 
       RowBox[{"route", ".", " ", "So"}], " ", "each", " ", "association", " ",
-       "represents", " ", "a", " ", "route"}]}], "*)"}], 
-   "\[IndentingNewLine]", 
+       "represents", " ", "a", " ", "route"}]}], "*)"}], "\n", 
    RowBox[{"Module", "[", 
     RowBox[{
-     RowBox[{"{", "TAPsFromRoute", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "TAPsFromRoute", ",", " ", "Synchronization", ",", " ", 
+       "NumberRoutes"}], "}"}], ",", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
      RowBox[{
       RowBox[{
-       RowBox[{"TAPsFromRoute", "[", 
-        RowBox[{"routeNumber_", ",", " ", "routeAssociation_"}], "]"}], " ", ":=", 
-       RowBox[{"Module", "[", 
+       RowBox[{
         RowBox[{
-         RowBox[{"{", 
+         RowBox[{"NumberRoutes", "[", "]"}], " ", ":=", " ", 
+         RowBox[{"Module", "[", 
           RowBox[{
-          "startStop", ",", " ", "endStop", ",", " ", "transitions", ",", " ",
-            "places", ",", " ", "arcs"}], "}"}], ",", "\[IndentingNewLine]", 
-         RowBox[{
-          RowBox[{"transitions", " ", "=", " ", 
-           RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
-          RowBox[{"places", " ", "=", " ", 
-           RowBox[{"Association", "[", "]"}]}], ";", "\[IndentingNewLine]", 
-          RowBox[{"arcs", " ", "=", " ", 
-           RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
-          RowBox[{"startStop", " ", "=", " ", 
-           RowBox[{
+           RowBox[{"{", "indexedAssociations", "}"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{"(*", " ", 
             RowBox[{
-             RowBox[{"Keys", "[", "routeAssociation", "]"}], "[", 
-             RowBox[{"[", "1", "]"}], "]"}], "[", 
-            RowBox[{"[", "1", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
-          RowBox[{"endStop", " ", "=", " ", 
+            "returns", " ", "an", " ", "association", " ", "with", " ", 
+             "route", " ", "number", " ", "as", " ", "key", " ", "and", " ", 
+             "travel", " ", "time", " ", "associations", " ", 
+             RowBox[{"(", 
+              RowBox[{"route", " ", "data"}], ")"}], " ", "as", " ", 
+             "values"}], " ", "*)"}], "\[IndentingNewLine]", 
            RowBox[{
+            RowBox[{"indexedAssociations", " ", "=", " ", 
+             RowBox[{"Association", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            
+            RowBox[{"For", "[", 
+             RowBox[{
+              RowBox[{"i", "=", "1"}], ",", 
+              RowBox[{"i", "<=", 
+               RowBox[{"Length", "[", "routeNumbers", "]"}]}], ",", " ", 
+              RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"indexedAssociations", "[", 
+                 RowBox[{"routeNumbers", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "]"}], "=", " ", 
+                RowBox[{"lineDataFile", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}]}], ";"}]}], 
+             "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+            "indexedAssociations"}]}], "\[IndentingNewLine]", "]"}]}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"TAPsFromRoute", "[", 
+          RowBox[{"routeNumber_", ",", " ", "routeAssociation_"}], "]"}], " ",
+          ":=", 
+         RowBox[{"Module", "[", 
+          RowBox[{
+           RowBox[{"{", 
             RowBox[{
-             RowBox[{"Keys", "[", "routeAssociation", "]"}], "[", 
-             RowBox[{"[", 
-              RowBox[{"-", "1"}], "]"}], "]"}], "[", 
-            RowBox[{"[", "1", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
-          RowBox[{"AppendTo", "[", 
-           RowBox[{"transitions", ",", 
-            RowBox[{"MakeNiceTransitionName", "[", 
-             RowBox[{"routeNumber", ",", " ", "startStop"}], "]"}]}], "]"}], 
-          ";", "\[IndentingNewLine]", 
-          RowBox[{"Do", "[", "\[IndentingNewLine]", 
+            "startStop", ",", " ", "endStop", ",", " ", "transitions", ",", 
+             " ", "places", ",", " ", "arcs"}], "}"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{"(*", " ", 
+            RowBox[{
+             RowBox[{"returns", " ", "the", " ", "transitions"}], ",", " ", 
+             "arcs", ",", " ", 
+             RowBox[{
+             "and", " ", "place", " ", "of", " ", "an", " ", "individual", 
+              " ", "route"}]}], " ", "*)"}], "\[IndentingNewLine]", 
            RowBox[{
-            RowBox[{
-             RowBox[{"AppendTo", "[", 
-              RowBox[{"transitions", ",", 
-               RowBox[{"MakeNiceTransitionName", "[", 
-                RowBox[{"routeNumber", ",", " ", 
-                 RowBox[{"pair", "[", 
-                  RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], "]"}], ";", 
-             "\[IndentingNewLine]", 
-             RowBox[{"AppendTo", "[", 
-              RowBox[{"places", ",", "  ", 
-               RowBox[{
-                RowBox[{"MakeNicePlaceName", "[", 
-                 RowBox[{"routeNumber", ",", " ", 
-                  RowBox[{"pair", "[", 
-                   RowBox[{"[", "1", "]"}], "]"}], ",", 
-                  RowBox[{"pair", "[", 
-                   RowBox[{"[", "2", "]"}], "]"}]}], "]"}], "->", 
-                RowBox[{"routeAssociation", "[", 
-                 RowBox[{"[", 
-                  RowBox[{"Key", "[", "pair", "]"}], "]"}], "]"}]}]}], "]"}], 
-             ";", "\[IndentingNewLine]", 
-             RowBox[{"AppendTo", "[", 
-              RowBox[{"arcs", ",", " ", 
-               RowBox[{
-                RowBox[{"MakeNiceTransitionName", "[", 
-                 RowBox[{"routeNumber", ",", " ", 
-                  RowBox[{"pair", "[", 
-                   RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "->", 
-                RowBox[{
-                 RowBox[{"Keys", "[", "places", "]"}], "[", 
-                 RowBox[{"[", 
-                  RowBox[{"-", "1"}], "]"}], "]"}]}]}], "]"}], ";", 
-             "\[IndentingNewLine]", 
-             RowBox[{"AppendTo", "[", 
-              RowBox[{"arcs", ",", " ", 
-               RowBox[{
-                RowBox[{
-                 RowBox[{"Keys", "[", "places", "]"}], "[", 
-                 RowBox[{"[", 
-                  RowBox[{"-", "1"}], "]"}], "]"}], "->", 
-                RowBox[{"MakeNiceTransitionName", "[", 
-                 RowBox[{"routeNumber", ",", " ", 
-                  RowBox[{"pair", "[", 
-                   RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}]}], "]"}], ";"}], 
-            "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
-            RowBox[{"{", 
-             RowBox[{"pair", ",", " ", 
+            RowBox[{"transitions", " ", "=", " ", 
+             RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"places", " ", "=", " ", 
+             RowBox[{"Association", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            
+            RowBox[{"arcs", " ", "=", " ", 
+             RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"startStop", " ", "=", " ", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"Keys", "[", "routeAssociation", "]"}], "[", 
+               RowBox[{"[", "1", "]"}], "]"}], "[", 
+              RowBox[{"[", "1", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"endStop", " ", "=", " ", 
+             RowBox[{
               RowBox[{
                RowBox[{"Keys", "[", "routeAssociation", "]"}], "[", 
                RowBox[{"[", 
-                RowBox[{"1", ";;", 
-                 RowBox[{"-", "1"}]}], "]"}], "]"}]}], "}"}]}], 
-           "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
-          RowBox[{"startEndStop", " ", "=", " ", 
-           RowBox[{"StringReplace", "[", 
-            RowBox[{"startStop", ",", " ", 
-             RowBox[{"{", 
-              RowBox[{"\"\<fwd\>\"", "->", "\"\<rev\>\""}], "}"}]}], "]"}]}], 
-          ";", "\[IndentingNewLine]", 
-          RowBox[{"AppendTo", "[", 
-           RowBox[{"places", ",", " ", 
-            RowBox[{
-             RowBox[{"MakeNicePlaceName", "[", 
-              RowBox[{"routeNumber", ",", "endStop", ",", " ", "startStop"}], 
-              "]"}], "->", 
-             RowBox[{"routeAssociation", "[", 
-              RowBox[{"[", 
-               RowBox[{"Key", "[", 
-                RowBox[{"List", "[", 
-                 RowBox[{"endStop", ",", " ", "startEndStop"}], "]"}], "]"}], 
-               "]"}], "]"}]}]}], "]"}], " ", ";", " ", 
-          RowBox[{"(*", 
-           RowBox[{
-           "make", " ", "sure", " ", "this", " ", "is", " ", "indeed", " ", 
-            "the", " ", "last", " ", "one"}], "*)"}], "\[IndentingNewLine]", 
-          RowBox[{"AppendTo", "[", 
-           RowBox[{"arcs", ",", " ", 
-            RowBox[{
-             RowBox[{"MakeNiceTransitionName", "[", 
-              RowBox[{"routeNumber", ",", " ", "endStop"}], "]"}], "->", 
-             RowBox[{"MakeNicePlaceName", "[", 
+                RowBox[{"-", "1"}], "]"}], "]"}], "[", 
+              RowBox[{"[", "1", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"AppendTo", "[", 
+             RowBox[{"transitions", ",", 
+              RowBox[{"MakeNiceTransitionName", "[", 
+               RowBox[{"routeNumber", ",", " ", "startStop"}], "]"}]}], "]"}],
+             ";", "\[IndentingNewLine]", 
+            RowBox[{"Do", "[", "\[IndentingNewLine]", 
+             RowBox[{
               RowBox[{
-              "routeNumber", ",", " ", "endStop", ",", " ", "startStop"}], 
-              "]"}]}]}], "]"}], ";", "\[IndentingNewLine]", 
-          RowBox[{"AppendTo", "[", 
-           RowBox[{"arcs", ",", " ", 
-            RowBox[{
-             RowBox[{"MakeNicePlaceName", "[", 
+               RowBox[{"AppendTo", "[", 
+                RowBox[{"transitions", ",", 
+                 RowBox[{"MakeNiceTransitionName", "[", 
+                  RowBox[{"routeNumber", ",", " ", 
+                   RowBox[{"pair", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], "]"}], ";", 
+               "\[IndentingNewLine]", 
+               RowBox[{"AppendTo", "[", 
+                RowBox[{"places", ",", "  ", 
+                 RowBox[{
+                  RowBox[{"MakeNicePlaceName", "[", 
+                   RowBox[{"routeNumber", ",", " ", 
+                    RowBox[{"pair", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], ",", 
+                    RowBox[{"pair", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}], "->", 
+                  RowBox[{"routeAssociation", "[", 
+                   RowBox[{"[", 
+                    RowBox[{"Key", "[", "pair", "]"}], "]"}], "]"}]}]}], 
+                "]"}], ";", "\[IndentingNewLine]", 
+               RowBox[{"AppendTo", "[", 
+                RowBox[{"arcs", ",", " ", 
+                 RowBox[{
+                  RowBox[{"MakeNiceTransitionName", "[", 
+                   RowBox[{"routeNumber", ",", " ", 
+                    RowBox[{"pair", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "->", 
+                  RowBox[{
+                   RowBox[{"Keys", "[", "places", "]"}], "[", 
+                   RowBox[{"[", 
+                    RowBox[{"-", "1"}], "]"}], "]"}]}]}], "]"}], ";", 
+               "\[IndentingNewLine]", 
+               RowBox[{"AppendTo", "[", 
+                RowBox[{"arcs", ",", " ", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"Keys", "[", "places", "]"}], "[", 
+                   RowBox[{"[", 
+                    RowBox[{"-", "1"}], "]"}], "]"}], "->", 
+                  RowBox[{"MakeNiceTransitionName", "[", 
+                   RowBox[{"routeNumber", ",", " ", 
+                    RowBox[{"pair", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}]}], "]"}], ";"}],
+               "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+              RowBox[{"{", 
+               RowBox[{"pair", ",", " ", 
+                RowBox[{
+                 RowBox[{"Keys", "[", "routeAssociation", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"1", ";;", 
+                   RowBox[{"-", "1"}]}], "]"}], "]"}]}], "}"}]}], 
+             "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+            RowBox[{"AppendTo", "[", 
+             RowBox[{"places", ",", " ", 
               RowBox[{
-              "routeNumber", ",", " ", "endStop", ",", " ", "startStop"}], 
-              "]"}], "->", 
-             RowBox[{"MakeNiceTransitionName", "[", 
-              RowBox[{"routeNumber", ",", " ", "startStop"}], "]"}]}]}], 
-           "]"}], ";", "\[IndentingNewLine]", 
-          RowBox[{"List", "[", 
-           RowBox[{"transitions", ",", " ", "arcs", ",", " ", "places"}], 
-           "]"}]}]}], "\[IndentingNewLine]", "]"}]}], ";", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{"transitions", " ", "=", " ", 
-       RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
-      RowBox[{"places", " ", "=", " ", 
-       RowBox[{"Association", "[", "]"}]}], ";", "\[IndentingNewLine]", 
-      RowBox[{"arcs", " ", "=", " ", 
-       RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
-      RowBox[{"For", "[", 
-       RowBox[{
-        RowBox[{"i", "=", "1"}], ",", " ", 
-        RowBox[{"i", "<=", 
-         RowBox[{"Length", "[", "lineDataFile", "]"}]}], ",", " ", 
-        RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+               RowBox[{"MakeNicePlaceName", "[", 
+                RowBox[{
+                "routeNumber", ",", "endStop", ",", " ", "startStop"}], "]"}],
+                "->", 
+               RowBox[{"routeAssociation", "[", 
+                RowBox[{"[", 
+                 RowBox[{"Key", "[", 
+                  RowBox[{"List", "[", 
+                   RowBox[{"endStop", ",", " ", 
+                    RowBox[{"StringReplace", "[", 
+                    RowBox[{"startStop", ",", " ", 
+                    RowBox[{"{", 
+                    RowBox[{"\"\<fwd\>\"", "->", "\"\<rev\>\""}], "}"}]}], 
+                    "]"}]}], "]"}], "]"}], "]"}], "]"}]}]}], "]"}], " ", ";", 
+            " ", 
+            RowBox[{"(*", 
+             RowBox[{
+             "make", " ", "sure", " ", "this", " ", "is", " ", "indeed", " ", 
+              "the", " ", "last", " ", "one"}], "*)"}], "\[IndentingNewLine]", 
+            RowBox[{"AppendTo", "[", 
+             RowBox[{"arcs", ",", " ", 
+              RowBox[{
+               RowBox[{"MakeNiceTransitionName", "[", 
+                RowBox[{"routeNumber", ",", " ", "endStop"}], "]"}], "->", 
+               RowBox[{"MakeNicePlaceName", "[", 
+                RowBox[{
+                "routeNumber", ",", " ", "endStop", ",", " ", "startStop"}], 
+                "]"}]}]}], "]"}], ";", "\[IndentingNewLine]", 
+            RowBox[{"AppendTo", "[", 
+             RowBox[{"arcs", ",", " ", 
+              RowBox[{
+               RowBox[{"MakeNicePlaceName", "[", 
+                RowBox[{
+                "routeNumber", ",", " ", "endStop", ",", " ", "startStop"}], 
+                "]"}], "->", 
+               RowBox[{"MakeNiceTransitionName", "[", 
+                RowBox[{"routeNumber", ",", " ", "startStop"}], "]"}]}]}], 
+             "]"}], ";", "\[IndentingNewLine]", 
+            RowBox[{"List", "[", 
+             RowBox[{"transitions", ",", " ", "arcs", ",", " ", "places"}], 
+             "]"}]}]}], "\[IndentingNewLine]", "]"}]}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
         RowBox[{
-         RowBox[{"temps", "=", " ", 
-          RowBox[{"TAPsFromRoute", "[", 
+         RowBox[{"Synchronization", "[", "]"}], " ", ":=", " ", 
+         RowBox[{"Module", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"arcs", ",", " ", "places", ",", " ", "indexedRoutes"}], 
+            "}"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"(*", " ", 
+            RowBox[{
+            "returns", " ", "the", " ", "arcs", " ", "and", " ", "places", 
+             " ", "between", " ", "routes", " ", "with", " ", "shared", " ", 
+             "stops"}], " ", "*)"}], "\[IndentingNewLine]", 
            RowBox[{
-            RowBox[{"routeNumbers", "[", 
-             RowBox[{"[", "i", "]"}], "]"}], ",", " ", 
-            RowBox[{"lineDataFile", "[", 
-             RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], ";", 
-         "\[IndentingNewLine]", 
-         RowBox[{"transitions", " ", "=", " ", 
-          RowBox[{"Join", "[", 
-           RowBox[{"transitions", ",", " ", 
-            RowBox[{"temps", "[", 
-             RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ";", 
-         "\[IndentingNewLine]", 
-         RowBox[{"arcs", " ", "=", " ", 
-          RowBox[{"Join", "[", 
-           RowBox[{"arcs", ",", " ", 
-            RowBox[{"temps", "[", 
-             RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], ";", 
-         "\[IndentingNewLine]", 
-         RowBox[{"places", " ", "=", " ", 
-          RowBox[{"Join", "[", 
-           RowBox[{"places", ",", " ", 
-            RowBox[{"temps", "[", 
-             RowBox[{"[", "3", "]"}], "]"}]}], "]"}]}], ";"}]}], 
-       "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+            RowBox[{"indexedRoutes", " ", "=", " ", 
+             RowBox[{"NumberRoutes", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"arcs", "=", 
+             RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"places", "=", 
+             RowBox[{"Association", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+            
+            RowBox[{"Do", "[", "\[IndentingNewLine]", 
+             RowBox[{
+              RowBox[{"Do", "[", "\[IndentingNewLine]", 
+               RowBox[{
+                RowBox[{"Do", "[", "\[IndentingNewLine]", 
+                 RowBox[{
+                  RowBox[{"Do", "[", "\[IndentingNewLine]", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"assoc1", " ", "!=", " ", "assoc2"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"StringDrop", "[", 
+                    RowBox[{
+                    RowBox[{"key1", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}], ",", 
+                    RowBox[{"-", "4"}]}], "]"}], "==", 
+                    RowBox[{"StringDrop", "[", 
+                    RowBox[{
+                    RowBox[{"key2", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}], ",", 
+                    RowBox[{"-", "4"}]}], "]"}]}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"(*", " ", 
+                    RowBox[{
+                    "add", " ", "arc", " ", "from", " ", "previous", " ", 
+                    "stop", " ", "on", " ", "origin", " ", "line", " ", "to", 
+                    " ", "new", " ", "place"}], " ", "*)"}], 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"(*", " ", 
+                    RowBox[{
+                    "add", " ", "arc", " ", "from", " ", "new", " ", "place", 
+                    " ", "to", " ", "shared", " ", "stop", " ", "on", " ", 
+                    "the", " ", "other", " ", "line"}], " ", "*)"}], 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"places", ",", " ", 
+                    RowBox[{
+                    RowBox[{"MakeNicePlaceName", "[", 
+                    RowBox[{
+                    RowBox[{"StringJoin", "[", 
+                    RowBox[{
+                    "assoc2", ",", " ", "\"\<->\>\"", ",", " ", "assoc1"}], 
+                    "]"}], ",", " ", 
+                    RowBox[{"key2", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
+                    RowBox[{"key1", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}], "->", 
+                    RowBox[{
+                    RowBox[{"indexedRoutes", "[", 
+                    RowBox[{"[", "assoc2", "]"}], "]"}], "[", 
+                    RowBox[{"[", 
+                    RowBox[{"Key", "[", "key2", "]"}], "]"}], "]"}]}]}], 
+                    "]"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"arcs", ",", " ", 
+                    RowBox[{
+                    RowBox[{"MakeNiceTransitionName", "[", 
+                    RowBox[{"assoc2", ",", 
+                    RowBox[{"key2", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "->", 
+                    RowBox[{"places", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"-", "1"}], "]"}], "]"}]}]}], "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"arcs", ",", " ", 
+                    RowBox[{
+                    RowBox[{"places", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"-", "1"}], "]"}], "]"}], "->", 
+                    RowBox[{"MakeNiceTransitionName", "[", 
+                    RowBox[{"assoc1", ",", " ", 
+                    RowBox[{"key1", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}]}], "]"}], ";"}],
+                     ",", "\[IndentingNewLine]", 
+                    RowBox[{"Nothing", "[", "]"}]}], "\[IndentingNewLine]", 
+                    "]"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"Nothing", "[", "]"}]}]}], "\[IndentingNewLine]", 
+                    "]"}], ";"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"key2", ",", 
+                    RowBox[{"Keys", "[", 
+                    RowBox[{"indexedRoutes", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"Key", "[", "assoc2", "]"}], "]"}], "]"}], 
+                    "]"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"{", 
+                   RowBox[{"key1", ",", 
+                    RowBox[{"Keys", "[", 
+                    RowBox[{"indexedRoutes", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"Key", "[", "assoc1", "]"}], "]"}], "]"}], 
+                    "]"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"{", 
+                 RowBox[{"assoc2", ",", 
+                  RowBox[{"Keys", "[", "indexedRoutes", "]"}]}], "}"}]}], 
+               "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"{", 
+               RowBox[{"assoc1", ",", 
+                RowBox[{"Keys", "[", "indexedRoutes", "]"}]}], "}"}]}], 
+             "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+            RowBox[{"List", "[", 
+             RowBox[{"arcs", ",", " ", "places"}], "]"}]}]}], 
+          "\[IndentingNewLine]", "]"}]}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", 
+        RowBox[{"transitions", " ", "=", " ", 
+         RowBox[{"List", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"places", " ", "=", " ", 
+         RowBox[{"Association", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"arcs", " ", "=", " ", 
+         RowBox[{"List", "[", "]"}]}], ";"}], "\[IndentingNewLine]", 
+       "\[IndentingNewLine]", 
+       RowBox[{"(*", " ", 
+        RowBox[{
+         RowBox[{"find", " ", "transitions"}], ",", " ", "arcs", ",", " ", 
+         RowBox[{
+         "and", " ", "places", " ", "for", " ", "all", " ", "routes"}]}], " ",
+         "*)"}], ";", "\[IndentingNewLine]", 
+       RowBox[{"For", "[", 
+        RowBox[{
+         RowBox[{"i", "=", "1"}], ",", " ", 
+         RowBox[{"i", "<=", 
+          RowBox[{"Length", "[", "lineDataFile", "]"}]}], ",", " ", 
+         RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+         RowBox[{
+          RowBox[{"temps", "=", " ", 
+           RowBox[{"TAPsFromRoute", "[", 
+            RowBox[{
+             RowBox[{"routeNumbers", "[", 
+              RowBox[{"[", "i", "]"}], "]"}], ",", " ", 
+             RowBox[{"lineDataFile", "[", 
+              RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], ";", 
+          "\[IndentingNewLine]", 
+          RowBox[{"transitions", " ", "=", " ", 
+           RowBox[{"Join", "[", 
+            RowBox[{"transitions", ",", " ", 
+             RowBox[{"temps", "[", 
+              RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ";", 
+          "\[IndentingNewLine]", 
+          RowBox[{"arcs", " ", "=", " ", 
+           RowBox[{"Join", "[", 
+            RowBox[{"arcs", ",", " ", 
+             RowBox[{"temps", "[", 
+              RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], ";", 
+          "\[IndentingNewLine]", 
+          RowBox[{"places", " ", "=", " ", 
+           RowBox[{"Join", "[", 
+            RowBox[{"places", ",", " ", 
+             RowBox[{"temps", "[", 
+              RowBox[{"[", "3", "]"}], "]"}]}], "]"}]}], ";"}]}], 
+        "\[IndentingNewLine]", "]"}], ";"}], "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "find", " ", "arcs", " ", "and", " ", "places", " ", "between", " ", 
+        "routes"}], " ", "*)"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"sync", " ", "=", " ", 
+       RowBox[{"Synchronization", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"arcs", " ", "=", " ", 
+       RowBox[{"Join", "[", 
+        RowBox[{"arcs", ",", " ", 
+         RowBox[{"sync", "[", 
+          RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"places", " ", "=", " ", 
+       RowBox[{"Join", "[", 
+        RowBox[{"places", ",", " ", 
+         RowBox[{"sync", "[", 
+          RowBox[{"[", "2", "]"}], "]"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
       RowBox[{"List", "[", 
        RowBox[{"transitions", ",", " ", "arcs", ",", " ", "places"}], 
-       "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+       "]"}]}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
   "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.918281345989832*^9, 3.918281361943011*^9}, {
    3.918881605905086*^9, 3.918881635466922*^9}, {3.918881744503552*^9, 
    3.918881936516221*^9}, {3.9188823807204943`*^9, 3.9188825253133*^9}, {
-   3.9188825820674353`*^9, 3.9188826121362658`*^9}, {3.918882645142598*^9, 
+   3.918882582067436*^9, 3.918882612136265*^9}, {3.918882645142598*^9, 
    3.91888270189203*^9}, {3.918882800226348*^9, 3.918882805210342*^9}, {
-   3.9188828620510187`*^9, 3.9188828925032787`*^9}, {3.9188830920234137`*^9, 
+   3.918882862051019*^9, 3.918882892503278*^9}, {3.9188830920234137`*^9, 
    3.918883133548925*^9}, {3.918883164343342*^9, 3.918883196605714*^9}, {
    3.918883566919897*^9, 3.918883577602068*^9}, {3.918883662763999*^9, 
-   3.91888382923379*^9}, {3.918883901161201*^9, 3.9188841349805803`*^9}, {
+   3.91888382923379*^9}, {3.918883901161201*^9, 3.91888413498058*^9}, {
    3.91888425109429*^9, 3.918884402478116*^9}, {3.918884774862331*^9, 
    3.918884985464066*^9}, {3.918885718889193*^9, 3.918885780657655*^9}, {
    3.91888583970784*^9, 3.918886017011883*^9}, {3.918886100655026*^9, 
@@ -813,33 +1086,82 @@ Cell[BoxData[
    3.918886394093027*^9, 3.918886484679677*^9}, {3.918886522910697*^9, 
    3.918886617928458*^9}, {3.918886661172222*^9, 3.91888700476406*^9}, {
    3.918887134388344*^9, 3.918887223847632*^9}, {3.918887274310718*^9, 
-   3.918887285323394*^9}, {3.918887325853621*^9, 3.9188873544193573`*^9}, {
+   3.918887285323394*^9}, {3.918887325853621*^9, 3.918887354419358*^9}, {
    3.9188875879272003`*^9, 3.918887666264264*^9}, {3.918887697006131*^9, 
    3.918887698265654*^9}, {3.918887758324279*^9, 3.918887899957143*^9}, {
-   3.9188883713631353`*^9, 3.918888437440456*^9}, 3.918888543963311*^9, {
+   3.918888371363135*^9, 3.918888437440456*^9}, 3.918888543963311*^9, {
    3.918888729609642*^9, 3.918888736016307*^9}, {3.918888928175333*^9, 
-   3.91888895874187*^9}, {3.918889272781378*^9, 3.9188893755004053`*^9}, {
-   3.9188898900636597`*^9, 3.918889917671831*^9}, {3.9188916591900053`*^9, 
+   3.91888895874187*^9}, {3.918889272781378*^9, 3.918889375500405*^9}, {
+   3.918889890063659*^9, 3.918889917671831*^9}, {3.9188916591900053`*^9, 
    3.918891713118444*^9}, {3.918892961421401*^9, 3.918892965465005*^9}, {
    3.91889304443329*^9, 3.918893062695462*^9}, {3.918893438460999*^9, 
    3.918893532158224*^9}, {3.918893569139676*^9, 3.9188936057670317`*^9}, {
    3.918893645681926*^9, 3.918893652151368*^9}, {3.918893704105205*^9, 
-   3.918893704499288*^9}, {3.9188937412381573`*^9, 3.918893746359044*^9}, {
+   3.918893704499288*^9}, {3.918893741238158*^9, 3.918893746359044*^9}, {
    3.918893797714497*^9, 3.9188938825362873`*^9}, {3.918894039936982*^9, 
-   3.918894042979788*^9}, {3.918894185409683*^9, 3.9188941901537447`*^9}, {
+   3.918894042979788*^9}, {3.918894185409683*^9, 3.918894190153744*^9}, {
    3.918894296315192*^9, 3.918894296436491*^9}, {3.918894349987482*^9, 
-   3.9188943946974773`*^9}, {3.918894425222715*^9, 3.918894556240911*^9}, {
+   3.918894394697478*^9}, {3.918894425222715*^9, 3.918894556240911*^9}, {
    3.918894586928244*^9, 3.9188946713378572`*^9}, 3.918894777599432*^9, {
    3.918900177047455*^9, 3.918900198388921*^9}, {3.918900294495393*^9, 
    3.918900407883443*^9}, 3.918900495488174*^9, {3.918900543875449*^9, 
    3.918900544266515*^9}, {3.918900576668517*^9, 3.918900637269363*^9}, {
    3.918901063727889*^9, 3.918901090434144*^9}, {3.918901507346434*^9, 
    3.918901539461437*^9}, 3.918902345449935*^9, {3.918903092760992*^9, 
-   3.9189030995579453`*^9}, {3.9191434199453487`*^9, 
-   3.9191434262437057`*^9}, {3.9191439984824467`*^9, 3.919144068501327*^9}, {
-   3.919144114086277*^9, 3.9191441148389378`*^9}, {3.919144150242959*^9, 
-   3.9191442289399137`*^9}},ExpressionUUID->"deb88299-6c08-4c61-a6ed-\
-28fc7f3044d7"],
+   3.9189030995579453`*^9}, {3.919143419945348*^9, 3.919143426243705*^9}, {
+   3.919143998482447*^9, 3.919144068501327*^9}, {3.919144114086277*^9, 
+   3.9191441148389378`*^9}, {3.919144150242959*^9, 3.91914426199518*^9}, {
+   3.9191447531495657`*^9, 3.919144820981168*^9}, {3.91914534289253*^9, 
+   3.919145408673155*^9}, {3.919145694691785*^9, 3.919145697142302*^9}, {
+   3.91914592989555*^9, 3.919146056015119*^9}, {3.919146182067106*^9, 
+   3.919146282403089*^9}, {3.9191463140017977`*^9, 3.919146346118899*^9}, {
+   3.919146428353231*^9, 3.919146429203084*^9}, {3.9191475839229813`*^9, 
+   3.919147589369508*^9}, {3.91915056190238*^9, 3.919150563961956*^9}, {
+   3.919150657739862*^9, 3.919150700798434*^9}, {3.919161320400388*^9, 
+   3.9191613344799*^9}, {3.9191614199847*^9, 3.9191614453790607`*^9}, {
+   3.919161517871702*^9, 3.919161522566534*^9}, {3.91917115698694*^9, 
+   3.9191713335696683`*^9}, {3.919171439932519*^9, 3.919171443473894*^9}, {
+   3.919172424469658*^9, 3.919172444137088*^9}, {3.919313536433168*^9, 
+   3.9193136712431493`*^9}, {3.919313748054787*^9, 3.919313802967037*^9}, {
+   3.919313861816645*^9, 3.91931390760778*^9}, {3.91931401054813*^9, 
+   3.919314208143518*^9}, {3.9193142387789516`*^9, 3.919314240722663*^9}, {
+   3.919314350764351*^9, 3.919314434378108*^9}, {3.919314478383674*^9, 
+   3.9193144913499804`*^9}, {3.919314546233693*^9, 3.919314548008678*^9}, {
+   3.919314634418273*^9, 3.919314692806473*^9}, {3.919314761159116*^9, 
+   3.919314871828038*^9}, {3.9193151313802342`*^9, 3.919315235340095*^9}, {
+   3.919315309532251*^9, 3.919315395015628*^9}, {3.919315472884239*^9, 
+   3.919315476646707*^9}, {3.919315531446719*^9, 3.9193155479482317`*^9}, {
+   3.91931586038715*^9, 3.9193159480822*^9}, {3.919316226166889*^9, 
+   3.919316252305314*^9}, {3.919316905637457*^9, 3.919317014270286*^9}, {
+   3.9193170623286138`*^9, 3.9193170708398848`*^9}, {3.919317181749385*^9, 
+   3.91931719227719*^9}, {3.919317234655504*^9, 3.91931725921272*^9}, {
+   3.919317315725014*^9, 3.919317328795407*^9}, {3.919317362966832*^9, 
+   3.919317411235908*^9}, {3.919317569677028*^9, 3.9193176218096437`*^9}, {
+   3.9193176691397943`*^9, 3.9193177526811876`*^9}, {3.919317809356702*^9, 
+   3.919317890395555*^9}, {3.919317941627357*^9, 3.919317976986409*^9}, 
+   3.919318256225928*^9, {3.9193183761174726`*^9, 3.919318434230544*^9}, {
+   3.919318477623064*^9, 3.9193186311359863`*^9}, {3.919318711488196*^9, 
+   3.919318812489497*^9}, {3.919318879031767*^9, 3.919318889121279*^9}, {
+   3.919319264729835*^9, 3.919319272055366*^9}, {3.919319370243577*^9, 
+   3.919319428837284*^9}, {3.91931959191731*^9, 3.9193196102593317`*^9}, {
+   3.919321032046414*^9, 3.919321057346154*^9}, {3.919321100787902*^9, 
+   3.919321180582993*^9}, {3.919321306152005*^9, 3.91932131116194*^9}, {
+   3.919322005485457*^9, 3.919322009513264*^9}, {3.91932248586173*^9, 
+   3.919322510487463*^9}, {3.919322562520696*^9, 3.919322631256827*^9}, {
+   3.9193235789551*^9, 3.9193236225349817`*^9}, {3.9193239002195377`*^9, 
+   3.919323906323902*^9}, {3.919323945410009*^9, 3.9193240138228188`*^9}, {
+   3.919324094859885*^9, 3.919324139745162*^9}, {3.919324274808967*^9, 
+   3.919324299023583*^9}, {3.919327414693527*^9, 3.919327420522676*^9}, {
+   3.9193274722881403`*^9, 3.919327527127087*^9}, {3.9193279516521587`*^9, 
+   3.919327952489757*^9}, {3.919328363768676*^9, 3.919328395045211*^9}, {
+   3.919328868313669*^9, 3.919328872110182*^9}, {3.9193292441580772`*^9, 
+   3.9193293160455627`*^9}, {3.9193294687559013`*^9, 
+   3.9193294710070877`*^9}, {3.9193297824936934`*^9, 3.919329782720089*^9}, {
+   3.919329842576055*^9, 3.9193298534157753`*^9}, {3.919330185930188*^9, 
+   3.919330225022346*^9}, {3.919330361577376*^9, 3.9193304295135*^9}, {
+   3.9193304995328617`*^9, 3.919330531367519*^9}, {3.919330586368867*^9, 
+   3.919330586685766*^9}},ExpressionUUID->"33914b71-3dd3-4a58-ac7f-\
+ae396980de99"],
 
 Cell[BoxData[
  RowBox[{"(*", " ", 
@@ -855,17 +1177,22 @@ Cell[BoxData[
     "time", " ", "at", " ", "the", " ", "arrival", " ", 
     RowBox[{"stop", "."}]}]}], " ", "*)"}]], "Input",
  CellChangeTimes->{{3.918282288329172*^9, 
-  3.918282325851677*^9}},ExpressionUUID->"f9efba9f-f31a-4606-8f2a-\
-43614fdd7145"],
+  3.918282325851677*^9}},ExpressionUUID->"dcf7dee6-556f-44d7-aeb9-\
+86d01c5c9b43"],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{"b1", " ", "=", " ", 
   RowBox[{"MergeDirections", "[", 
    RowBox[{
    "\"\<2_RGU_Ashwood.txt\>\"", ",", " ", "\"\<1_Danestone_RGU.txt\>\""}], 
-   "]"}]}]], "Input",
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"b13", " ", "=", " ", 
+  RowBox[{"MergeDirections", "[", 
+   RowBox[{
+   "\"\<13_Golf_Links_Scatterburn.txt\>\"", ",", " ", 
+    "\"\<13_Scatterburn _Golf_Links.txt\>\""}], "]"}]}]}], "Input",
  CellChangeTimes->{{3.918881938718025*^9, 3.9188819391035767`*^9}, {
   3.918889927614497*^9, 3.918889943138098*^9}, {3.918891840600931*^9, 
   3.918891873011689*^9}, {3.918892474082038*^9, 3.918892553638226*^9}, {
@@ -873,9 +1200,9 @@ Cell[BoxData[
   3.9188926983829803`*^9}, {3.918892765540331*^9, 3.918892813002934*^9}, {
   3.918892993109445*^9, 3.918893019840701*^9}, {3.918893070728305*^9, 
   3.918893081498898*^9}, {3.919142388823834*^9, 3.919142463734351*^9}, {
-  3.919143468662496*^9, 3.919143513207972*^9}},
- CellLabel->
-  "In[234]:=",ExpressionUUID->"e52299f3-c2ef-460f-abc6-7ad4c96e79a4"],
+  3.919143468662496*^9, 3.919143513207972*^9}, {3.919327615704384*^9, 
+  3.9193276347285423`*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"d29b8eaf-6fc7-465d-8c07-d4deebd9050c"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -970,187 +1297,93 @@ Cell[BoxData[
       ",", "\<\"Bridge_of_Dee_Court_rev\"\>"}], "}"}], "\[Rule]", 
     TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
      "Quantity"]}]}], "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{3.919143562919191*^9},
- CellLabel->
-  "Out[234]=",ExpressionUUID->"e0d05b6d-60a9-4691-a77e-455ca0b24801"]
-}, Open  ]],
+ CellChangeTimes->{
+  3.919143562919191*^9, {3.919319435519845*^9, 3.919319485699664*^9}, 
+   3.919319554444007*^9, 3.919319636861073*^9, {3.919324144993478*^9, 
+   3.919324169738366*^9}, 3.919327639001753*^9, 3.919329308458308*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"80daca9d-2b83-48ae-af48-046c276844a1"],
 
-Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Golf_Links_fwd\"\>", ",", "\<\"Beach_Boulevard_fwd\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"10.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Beach_Boulevard_fwd\"\>", 
+      ",", "\<\"St_Andrew's_Cathedral_fwd\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"10.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"St_Andrew's_Cathedral_fwd\"\>", 
+      ",", "\<\"Prince_Arthur_Street_fwd\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Prince_Arthur_Street_fwd\"\>", 
+      ",", "\<\"Mastrick_Shops_fwd\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Mastrick_Shops_fwd\"\>", 
+      ",", "\<\"Turning_Circle_fwd\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"9.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Turning_Circle_rev\"\>", 
+      ",", "\<\"Summerhill_Terrace_rev\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Summerhill_Terrace_rev\"\>", 
+      ",", "\<\"Bridge_Street_rev\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"15.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Bridge_Street_rev\"\>", ",", "\<\"Castle_Street_rev\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Castle_Street_rev\"\>", 
+      ",", "\<\"Beach_Boulevard_rev\"\>"}], "}"}], "\[Rule]", 
+    TemplateBox[{"6.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Beach_Boulevard_rev\"\>", ",", "\<\"Golf_Links_rev\"\>"}], 
+     "}"}], "\[Rule]", 
+    TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
+     "Quantity"]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{
+  3.919143562919191*^9, {3.919319435519845*^9, 3.919319485699664*^9}, 
+   3.919319554444007*^9, 3.919319636861073*^9, {3.919324144993478*^9, 
+   3.919324169738366*^9}, 3.919327639001753*^9, 3.919329308565539*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"421aa962-b73f-461d-b0e3-8d0c7c85630b"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{"Algorithm821", "[", 
   RowBox[{
-   RowBox[{"{", "b1", "}"}], ",", " ", 
-   RowBox[{"{", "\"\<1\>\"", "}"}]}], "]"}]], "Input",
+   RowBox[{"{", 
+    RowBox[{"b1", ",", " ", "b13"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"\"\<1\>\"", ",", " ", "\"\<13\>\""}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.919143524343219*^9, 3.9191435269059258`*^9}, {
-  3.91914362750814*^9, 3.919143628863799*^9}},
- CellLabel->
-  "In[240]:=",ExpressionUUID->"eac673e3-cc9b-4b1a-ba7b-83164e8f68d0"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"\<\"q_1_Bridge_of_Dee_Court_fwd\"\>", 
-     ",", "\<\"q_1_Robert_Gordon_University_fwd\"\>", 
-     ",", "\<\"q_1_Auchinyell_Gardens_fwd\"\>", 
-     ",", "\<\"q_1_Great_Western_Road_fwd\"\>", 
-     ",", "\<\"q_1_Castle_Street_fwd\"\>", 
-     ",", "\<\"q_1_Errol_Street_fwd\"\>", ",", "\<\"q_1_School_Drive_fwd\"\>",
-      ",", "\<\"q_1_Fraserfield_Gardens_fwd\"\>", 
-     ",", "\<\"q_1_Wallacebrae_Road_fwd\"\>", 
-     ",", "\<\"q_1_Bodachra_Place_rev\"\>", 
-     ",", "\<\"q_1_North_Donside_Road_rev\"\>", 
-     ",", "\<\"q_1_School_Road_rev\"\>", ",", "\<\"q_1_Errol_Street_rev\"\>", 
-     ",", "\<\"q_1_Castle_Street_rev\"\>", ",", "\<\"q_1_Music_Hall_rev\"\>", 
-     ",", "\<\"q_1_Bridge_of_Dee_Court_rev\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"\<\"q_1_Bridge_of_Dee_Court_fwd\"\>", 
-      "\[Rule]", \
-"\<\"p_1_Bridge_of_Dee_Court_fwd+Robert_Gordon_University_fwd\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Bridge_of_Dee_Court_fwd+Robert_Gordon_University_fwd\"\>\
-", "\[Rule]", "\<\"q_1_Robert_Gordon_University_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Robert_Gordon_University_fwd\"\>", 
-      "\[Rule]", "\<\"p_1_Robert_Gordon_University_fwd+Auchinyell_Gardens_fwd\
-\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Robert_Gordon_University_fwd+Auchinyell_Gardens_fwd\"\>\
-", "\[Rule]", "\<\"q_1_Auchinyell_Gardens_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Auchinyell_Gardens_fwd\"\>", 
-      "\[Rule]", \
-"\<\"p_1_Auchinyell_Gardens_fwd+Great_Western_Road_fwd\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Auchinyell_Gardens_fwd+Great_Western_Road_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_Great_Western_Road_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Great_Western_Road_fwd\"\>", 
-      "\[Rule]", "\<\"p_1_Great_Western_Road_fwd+Castle_Street_fwd\"\>"}], 
-     ",", 
-     RowBox[{"\<\"p_1_Great_Western_Road_fwd+Castle_Street_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_Castle_Street_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Castle_Street_fwd\"\>", 
-      "\[Rule]", "\<\"p_1_Castle_Street_fwd+Errol_Street_fwd\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_fwd+Errol_Street_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_Errol_Street_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Errol_Street_fwd\"\>", 
-      "\[Rule]", "\<\"p_1_Errol_Street_fwd+School_Drive_fwd\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_fwd+School_Drive_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_School_Drive_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_School_Drive_fwd\"\>", 
-      "\[Rule]", "\<\"p_1_School_Drive_fwd+Fraserfield_Gardens_fwd\"\>"}], 
-     ",", 
-     RowBox[{"\<\"p_1_School_Drive_fwd+Fraserfield_Gardens_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_Fraserfield_Gardens_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Fraserfield_Gardens_fwd\"\>", 
-      "\[Rule]", "\<\"p_1_Fraserfield_Gardens_fwd+Wallacebrae_Road_fwd\"\>"}],
-      ",", 
-     RowBox[{"\<\"p_1_Fraserfield_Gardens_fwd+Wallacebrae_Road_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_Wallacebrae_Road_fwd\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Wallacebrae_Road_rev\"\>", 
-      "\[Rule]", "\<\"p_1_Wallacebrae_Road_rev+Bodachra_Place_rev\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Wallacebrae_Road_rev+Bodachra_Place_rev\"\>", 
-      "\[Rule]", "\<\"q_1_Bodachra_Place_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Bodachra_Place_rev\"\>", 
-      "\[Rule]", "\<\"p_1_Bodachra_Place_rev+North_Donside_Road_rev\"\>"}], 
-     ",", 
-     RowBox[{"\<\"p_1_Bodachra_Place_rev+North_Donside_Road_rev\"\>", 
-      "\[Rule]", "\<\"q_1_North_Donside_Road_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_North_Donside_Road_rev\"\>", 
-      "\[Rule]", "\<\"p_1_North_Donside_Road_rev+School_Road_rev\"\>"}], ",", 
-     
-     RowBox[{"\<\"p_1_North_Donside_Road_rev+School_Road_rev\"\>", 
-      "\[Rule]", "\<\"q_1_School_Road_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_School_Road_rev\"\>", 
-      "\[Rule]", "\<\"p_1_School_Road_rev+Errol_Street_rev\"\>"}], ",", 
-     RowBox[{"\<\"p_1_School_Road_rev+Errol_Street_rev\"\>", 
-      "\[Rule]", "\<\"q_1_Errol_Street_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Errol_Street_rev\"\>", 
-      "\[Rule]", "\<\"p_1_Errol_Street_rev+Castle_Street_rev\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_rev+Castle_Street_rev\"\>", 
-      "\[Rule]", "\<\"q_1_Castle_Street_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Castle_Street_rev\"\>", 
-      "\[Rule]", "\<\"p_1_Castle_Street_rev+Music_Hall_rev\"\>"}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_rev+Music_Hall_rev\"\>", 
-      "\[Rule]", "\<\"q_1_Music_Hall_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Music_Hall_rev\"\>", 
-      "\[Rule]", "\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_rev\"\>"}], ",", 
-     
-     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_rev\"\>", 
-      "\[Rule]", "\<\"q_1_Bridge_of_Dee_Court_rev\"\>"}], ",", 
-     RowBox[{"\<\"q_1_Music_Hall_rev\"\>", 
-      "\[Rule]", "\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_fwd\"\>"}], ",", 
-     
-     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_fwd\"\>", 
-      "\[Rule]", "\<\"q_1_Bridge_of_Dee_Court_fwd\"\>"}]}], "}"}], ",", 
-   RowBox[{"\[LeftAssociation]", 
-    RowBox[{
-     RowBox[{"\<\"p_1_Bridge_of_Dee_Court_fwd+Robert_Gordon_University_fwd\"\>\
-", "\[Rule]", 
-      TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Robert_Gordon_University_fwd+Auchinyell_Gardens_fwd\"\>\
-", "\[Rule]", 
-      TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Auchinyell_Gardens_fwd+Great_Western_Road_fwd\"\>", 
-      "\[Rule]", 
-      TemplateBox[{"8.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Great_Western_Road_fwd+Castle_Street_fwd\"\>", 
-      "\[Rule]", 
-      TemplateBox[{"11.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_fwd+Errol_Street_fwd\"\>", "\[Rule]", 
-      TemplateBox[{"4.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_fwd+School_Drive_fwd\"\>", "\[Rule]", 
-      TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_School_Drive_fwd+Fraserfield_Gardens_fwd\"\>", 
-      "\[Rule]", 
-      TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Fraserfield_Gardens_fwd+Wallacebrae_Road_fwd\"\>", 
-      "\[Rule]", 
-      TemplateBox[{"13.000000000000002`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Wallacebrae_Road_rev+Bodachra_Place_rev\"\>", "\[Rule]", 
-      TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Bodachra_Place_rev+North_Donside_Road_rev\"\>", 
-      "\[Rule]", 
-      TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_North_Donside_Road_rev+School_Road_rev\"\>", "\[Rule]", 
-      
-      TemplateBox[{"7.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_School_Road_rev+Errol_Street_rev\"\>", "\[Rule]", 
-      TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Errol_Street_rev+Castle_Street_rev\"\>", "\[Rule]", 
-      TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Castle_Street_rev+Music_Hall_rev\"\>", "\[Rule]", 
-      TemplateBox[{"5.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_rev\"\>", "\[Rule]", 
-      
-      TemplateBox[{"14.`", "\"min\"", "minutes", "\"Minutes\""},
-       "Quantity"]}], ",", 
-     RowBox[{"\<\"p_1_Music_Hall_rev+Bridge_of_Dee_Court_fwd\"\>", "\[Rule]", 
-      
-      RowBox[{"Missing", "[", 
-       RowBox[{"\<\"KeyAbsent\"\>", ",", 
-        RowBox[{"Key", "[", 
-         RowBox[{"{", 
-          
-          RowBox[{"\<\"Music_Hall_rev\"\>", 
-           ",", "\<\"Bridge_of_Dee_Court_fwd\"\>"}], "}"}], "]"}]}], 
-       "]"}]}]}], "\[RightAssociation]"}]}], "}"}]], "Output",
- CellChangeTimes->{3.9191435293678007`*^9, 3.9191436305325203`*^9, 
-  3.919143873309082*^9, 3.919144119113895*^9},
- CellLabel->
-  "Out[240]=",ExpressionUUID->"758729f9-5e25-48e0-8472-a32ddeee775d"]
-}, Open  ]]
+  3.91914362750814*^9, 3.919143628863799*^9}, {3.919327643555482*^9, 
+  3.919327647450429*^9}},
+ CellLabel->"In[65]:=",ExpressionUUID->"7105971c-bd6b-45fd-b020-bf88947505d5"]
 },
 WindowSize->{1280, 685},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -1170,30 +1403,29 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 19094, 392, 983, "Input",ExpressionUUID->"a609c1de-5601-4704-8293-efe2ccbd3fae"],
-Cell[19655, 414, 219, 5, 30, "Input",ExpressionUUID->"b30385cc-f050-4a84-9c9b-434e72a04bb8"],
-Cell[19877, 421, 194, 4, 30, "Input",ExpressionUUID->"7d8d46a5-badb-4436-90c1-7c5f59849be5"],
-Cell[20074, 427, 299, 8, 30, "Input",ExpressionUUID->"8aa7fffa-fd74-4215-b322-ca63094ada1b"],
-Cell[20376, 437, 268, 6, 30, "Input",ExpressionUUID->"31a05417-2b42-4aef-98ba-5170bfafe37b"],
-Cell[20647, 445, 284, 7, 30, "Input",ExpressionUUID->"73a58981-ae96-4126-bdc8-9d6e5b8ec020"],
+Cell[558, 20, 19076, 392, 983, "Input",ExpressionUUID->"35ed2c39-e45d-43b6-aefa-edd2ea779dce"],
+Cell[19637, 414, 219, 5, 30, "Input",ExpressionUUID->"4e5a63ce-f4f1-4277-910d-88d6901710fc"],
+Cell[19859, 421, 194, 4, 30, "Input",ExpressionUUID->"967114cb-0f1b-4adf-b847-4e75c9c0952d"],
+Cell[20056, 427, 299, 8, 30, "Input",ExpressionUUID->"411b306c-7b23-43ff-9265-ae38e8a76e03"],
+Cell[20358, 437, 268, 6, 30, "Input",ExpressionUUID->"feec1f19-81d5-47bf-be9b-f03958b3cd32"],
+Cell[20629, 445, 284, 7, 30, "Input",ExpressionUUID->"01eb0f01-0036-4525-a9b3-39fef5d7e25f"],
 Cell[CellGroupData[{
-Cell[20956, 456, 154, 3, 30, "Input",ExpressionUUID->"84e5face-02f1-4434-8bf7-dd90d1696466"],
-Cell[21113, 461, 177, 3, 34, "Output",ExpressionUUID->"dcc31fa9-ae56-43e8-8096-a6695a20f38f"]
+Cell[20938, 456, 154, 3, 30, "Input",ExpressionUUID->"415293d7-cd90-436d-831a-12617695ee19"],
+Cell[21095, 461, 177, 3, 34, "Output",ExpressionUUID->"c6042185-86fc-4c6d-8503-c6c5156de6ef"]
 }, Open  ]],
-Cell[21305, 467, 657, 13, 30, "Input",ExpressionUUID->"d1a2c073-b1ca-40fb-96ab-7c58a109def3"],
-Cell[21965, 482, 1034, 19, 52, "Input",ExpressionUUID->"46c61048-0979-473c-ac28-34936109f2ba"],
-Cell[23002, 503, 3415, 80, 493, "Input",ExpressionUUID->"b4ece0e7-155a-4790-9cd1-283a61fb48c8"],
-Cell[26420, 585, 736, 11, 30, "Input",ExpressionUUID->"3744a3a5-14f3-4800-892f-a6e2178f7d2c"],
-Cell[27159, 598, 12151, 243, 829, "Input",ExpressionUUID->"deb88299-6c08-4c61-a6ed-28fc7f3044d7"],
-Cell[39313, 843, 640, 15, 31, "Input",ExpressionUUID->"f9efba9f-f31a-4606-8f2a-43614fdd7145"],
+Cell[21287, 467, 863, 18, 52, "Input",ExpressionUUID->"3c92f7e5-657e-4fa3-acf6-ac40181cf10e"],
+Cell[22153, 487, 1246, 24, 52, "Input",ExpressionUUID->"03550ad2-3d82-4105-92c8-afa73c5457fe"],
+Cell[23402, 513, 3893, 88, 472, "Input",ExpressionUUID->"31323f97-3ab2-4596-9971-6c88e6062f81"],
+Cell[27298, 603, 1456, 30, 52, "Input",ExpressionUUID->"eb56b9bb-dadc-4427-ab0e-80b258751220"],
+Cell[28757, 635, 1358, 26, 73, "Input",ExpressionUUID->"037e4956-b6cf-4d8a-a6fb-8a303e193e40"],
+Cell[30118, 663, 25685, 500, 1879, "Input",ExpressionUUID->"33914b71-3dd3-4a58-ac7f-ae396980de99"],
+Cell[55806, 1165, 640, 15, 31, "Input",ExpressionUUID->"dcf7dee6-556f-44d7-aeb9-86d01c5c9b43"],
 Cell[CellGroupData[{
-Cell[39978, 862, 822, 15, 30, "Input",ExpressionUUID->"e52299f3-c2ef-460f-abc6-7ad4c96e79a4"],
-Cell[40803, 879, 3624, 95, 153, "Output",ExpressionUUID->"e0d05b6d-60a9-4691-a77e-455ca0b24801"]
+Cell[56471, 1184, 1086, 20, 52, "Input",ExpressionUUID->"d29b8eaf-6fc7-465d-8c07-d4deebd9050c"],
+Cell[57560, 1206, 3811, 97, 153, "Output",ExpressionUUID->"80daca9d-2b83-48ae-af48-046c276844a1"],
+Cell[61374, 1305, 2730, 67, 131, "Output",ExpressionUUID->"421aa962-b73f-461d-b0e3-8d0c7c85630b"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[44464, 979, 349, 8, 30, "Input",ExpressionUUID->"eac673e3-cc9b-4b1a-ba7b-83164e8f68d0"],
-Cell[44816, 989, 8328, 162, 681, "Output",ExpressionUUID->"758729f9-5e25-48e0-8472-a32ddeee775d"]
-}, Open  ]]
+Cell[64119, 1375, 465, 10, 30, "Input",ExpressionUUID->"7105971c-bd6b-45fd-b020-bf88947505d5"]
 }
 ]
 *)
