@@ -414,6 +414,40 @@ MakeAdjacencyGraph[mtx_, TAPs_] := Module[{noZeros, noInfi},
 ]
 
 
+
+(* ::Input::Initialization:: *)
+MakeStateVector[mtx_, replace_ : 0, random_ : False] := 
+ Module[{length, vector, val}, length = Length[mtx];
+  vector = Table[eps, length];
+  For[i = 1, i <= length, i++,
+   If[replace == 0 && random, replace = 1, Nothing[]];
+   If[Max[mtx[[All, i]]] >= 0,
+    If[random, vector[[i]] = RandomInteger[{0, replace}], 
+     vector[[i]] = replace];
+    Nothing[]]
+   ];
+  vector
+  ]
+
+
+TimeTable[mtx_, vec_, transitions_] := Module[{xNext, list},
+	list = List[];
+	i = 2;
+	xNext = mtimes[mpower[mtx, 1], vec] ;
+	AppendTo[list, xNext];
+	While[Min[xNext ]< 0,
+		xNext = mtimes[mpower[mtx, i], vec] ;
+		AppendTo[list, xNext];
+		i++;
+	];
+	Join[{transitions}, list]
+]
+
+
+(* ::Input:: *)
+(**)
+
+
 (* ::Input:: *)
 (*EndPackage[]*)
 (**)
