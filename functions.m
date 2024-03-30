@@ -444,6 +444,22 @@ TimeTable[mtx_, vec_, transitions_] := Module[{xNext, list},
 ]
 
 
+SplitByRoutes[timeTable_, routeNames_] := Module[{ttbs, ttb},
+ttbs=List[];
+Do[
+ttb = List[];
+For[u=1, u<=Length[Transpose[timeTable]], u++,
+If[GetTransitionRoute[timeTable[[1,u]]] == r,
+AppendTo[ttb, timeTable[[All,u]]],
+Nothing[]];
+];
+AppendTo[ttbs, ttb];,
+{r, routeNames}
+];
+ttbs
+]
+
+
 (* ::Input:: *)
 (**)
 
