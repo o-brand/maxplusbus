@@ -414,7 +414,6 @@ MakeAdjacencyGraph[mtx_, TAPs_] := Module[{noZeros, noInfi},
 ]
 
 
-
 (* ::Input::Initialization:: *)
 MakeStateVector[mtx_, replace_ : 0, random_ : False] := 
  Module[{length, vector, val}, length = Length[mtx];
@@ -430,6 +429,7 @@ MakeStateVector[mtx_, replace_ : 0, random_ : False] :=
   ]
 
 
+(* ::Input::Initialization:: *)
 TimeTable[mtx_, vec_, transitions_, length_ : 5] := Module[{xNext, list, kpx},
 	kpx = Association[1 -> mtx];
 	list = List[vec];
@@ -447,19 +447,30 @@ TimeTable[mtx_, vec_, transitions_, length_ : 5] := Module[{xNext, list, kpx},
 ]
 
 
+(* ::Input::Initialization:: *)
 SplitByRoutes[timeTable_, routeNames_] := Module[{ttbs, ttb},
-ttbs=List[];
-Do[
-ttb = List[];
-For[u=1, u<=Length[Transpose[timeTable]], u++,
-If[GetTransitionRoute[timeTable[[1,u]]] == r,
-AppendTo[ttb, timeTable[[All,u]]],
-Nothing[]];
-];
-AppendTo[ttbs, ttb];,
-{r, routeNames}
-];
-ttbs
+	ttbs=List[];
+	Do[
+		ttb = List[];
+		For[u=1, u<=Length[Transpose[timeTable]], u++,
+			If[GetTransitionRoute[timeTable[[1,u]]] == r,
+				AppendTo[ttb, timeTable[[All,u]]],
+				Nothing[]];
+		];
+		AppendTo[ttbs, ttb];,
+		{r, routeNames}
+	];
+	ttbs
+]
+
+
+(* ::Input::Initialization:: *)
+ConvertToHoursTimetable[ttb_] := Module[{route, route2},
+	RotateLeftIfEpsilon[row_] := If[row[[1]] == eps, RotateLeft[row], row];
+
+	route = Transpose[ttb];
+	route2 = RotateLeftIfEpsilon /@ Transpose[Rest[route]];
+	Transpose[Prepend[Transpose[Replace[route2, minutes_->If[minutes == eps, "-", TimeObject[{6,0,0}]+Quantity[minutes, "Minutes"]], {2}]], route[[1]]]]
 ]
 
 
