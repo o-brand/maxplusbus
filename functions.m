@@ -24,7 +24,7 @@ ExportMaxPlusMatrix[filename_, matrix_]:= Module[{m},
 
 
 (* ::Input::Initialization:: *)
-ImportMaxPlustMatrix[filename_]:= Module[{m},
+ImportMaxPlusMatrix[filename_]:= Module[{m},
 	m = Import[CreateFileName[StringJoin[filename, ".hdf"]],{"Datasets","Dataset1"}];
 	ReplaceInRows[m, -1, eps];
 	ReplaceInRows[m, -1., eps]
