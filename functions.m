@@ -430,16 +430,19 @@ MakeStateVector[mtx_, replace_ : 0, random_ : False] :=
   ]
 
 
-TimeTable[mtx_, vec_, transitions_] := Module[{xNext, list},
-	list = List[];
+TimeTable[mtx_, vec_, transitions_, length_ : 5] := Module[{xNext, list, kpx},
+	kpx = Association[1 -> mtx];
+	list = List[vec];
 	i = 2;
-	xNext = mtimes[mpower[mtx, 1], vec] ;
+	xNext = mtimes[mpower[mtx, 1], vec];
 	AppendTo[list, xNext];
-	While[Min[xNext ]< 0,
-		xNext = mtimes[mpower[mtx, i], vec] ;
+	While[i < length,
+		powerAndKnown = mpowerDynamic[mtx, i, kpx];
+		xNext = mtimes[powerAndKnown[[1]], vec];
+		kpx = powerAndKnown[[2]];
 		AppendTo[list, xNext];
 		i++;
-	];
+];
 	Join[{transitions}, list]
 ]
 
