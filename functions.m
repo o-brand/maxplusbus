@@ -465,12 +465,13 @@ SplitByRoutes[timeTable_, routeNames_] := Module[{ttbs, ttb},
 
 
 (* ::Input::Initialization:: *)
-ConvertToHoursTimetable[ttb_] := Module[{route, route2},
+ConvertToHoursTimetable[ttb_] := Module[{route, route2, hoursTimetable},
 	RotateLeftIfEpsilon[row_] := If[row[[1]] == eps, RotateLeft[row], row];
 
 	route = Transpose[ttb];
 	route2 = RotateLeftIfEpsilon /@ Transpose[Rest[route]];
-	Transpose[Prepend[Transpose[Replace[route2, minutes_->If[minutes == eps, "-", TimeObject[{6,0,0}]+Quantity[minutes, "Minutes"]], {2}]], route[[1]]]]
+	hoursTimetable = Transpose[Prepend[Transpose[Replace[route2, minutes_->If[minutes == eps, "-", TimeObject[{6,0,0}]+Quantity[minutes, "Minutes"]], {2}]], route[[1]]]];
+	Drop[hoursTimetable,None, -1]
 ]
 
 
